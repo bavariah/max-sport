@@ -125,8 +125,8 @@ body {
 }
 .social {
   position: absolute;
-  font-size: 2rem;
-  bottom: 20px;
+  font-size: 2.5rem;
+  bottom: 50px;
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -181,9 +181,15 @@ body {
 /* media */
 
 @media (max-width: 798px) {
+  .hero.active {
+    right: 250px;
+  }
+  .menu {
+    width: 250px;
+  }
   .hero,
   .hero header {
-    padding: 40px;
+    padding: 40px 20px;
   }
 
   .text h2 {
@@ -191,5 +197,24 @@ body {
   }
   .text h4 {
     font-size: 2em;
+  }
+}
+@media (max-width: 330px) {
+  .hero.active {
+    right: 200px;
+  }
+  .menu {
+    width: 200px;
+  }
+  .hero,
+  .hero header {
+    padding: 30px 15px;
+  }
+
+  .text h2 {
+    font-size: 2em;
+  }
+  .text h4 {
+    font-size: 1.2em;
   }
 }
