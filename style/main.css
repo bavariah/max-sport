@@ -122,21 +122,16 @@ body {
   line-height: 1.1em;
   text-transform: uppercase;
 }
-.text p {
-  font-size: 1.1em;
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
-}
 .text a {
   display: inline-block;
   position: relative;
+  left: 10%;
   font-size: 1.8em;
   padding: 20px 30px;
   background: #fff;
   color: #111;
+  border-radius: 5px;
   z-index: 1;
-  border-radius: 20px;
   margin-top: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -149,7 +144,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 20px;
+  border-radius: 5px;
   z-index: -1;
   background: #034aff;
   transform: scaleX(0);
@@ -161,7 +156,6 @@ body {
   transform: scaleX(1);
 }
 .text a:hover {
-  letter-spacing: 6px;
   color: #fff;
 }
 .social {
