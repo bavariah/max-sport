@@ -47,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 5px solid #2744f0;
 }
 .logo {
   cursor: pointer;
@@ -248,9 +249,12 @@ body {
   .menu {
     width: 250px;
   }
-  .hero,
-  .hero header {
+  .hero {
     padding: 40px 20px;
+  }
+  .hero header {
+    border-bottom: none;
+    padding: 20px;
   }
   .text h2 {
     font-size: 3em;
