@@ -246,7 +246,13 @@ body {
   .hero header {
     padding: 40px 20px;
   }
-
+  .text .btn-cta:hover::before,
+  .text .btn-cta:focus::before {
+    transform: scaleX(0);
+  }
+  .text a:hover {
+    color: #111;
+  }
   .text h2 {
     font-size: 3em;
   }
