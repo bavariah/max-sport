@@ -309,6 +309,8 @@ footer {
     letter-spacing: 0.25rem;
   }
   .social {
+    font-size: 2.5rem;
+    top: 40%;
     left: 5px;
   }
   footer {
@@ -344,5 +346,13 @@ footer {
   }
   .menu {
     width: 200px;
+  }
+  .hero .products .products-center {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .social {
+    font-size: 2.2rem;
+    top: 30%;
+    left: 2px;
   }
 }

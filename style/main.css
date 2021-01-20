@@ -281,7 +281,12 @@ body {
   .text h4 {
     font-size: 1.2em;
   }
+  .text a {
+    padding: 10px;
+    font-size: 1.4rem;
+  }
   .social {
     bottom: 30px;
+    font-size: 2rem;
   }
 }
