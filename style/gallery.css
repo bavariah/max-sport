@@ -25,10 +25,7 @@ body {
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
+  padding: 100px 100px 0;
   background: #111;
   color: #fff;
   z-index: 2;
@@ -160,6 +157,7 @@ body {
 .hero .products {
   padding: 4rem 0;
   position: relative;
+  margin-bottom: 200px;
 }
 .section-title h2 {
   text-align: center;
@@ -230,6 +228,44 @@ body {
 }
 
 /* ---------------End of Products ---------------- */
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  background: #034aff;
+}
+.footer-media .media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+}
+.footer-media .media li {
+  margin-right: 50px;
+  padding: 20px;
+}
+.footer-media .media li a {
+  color: #111;
+}
+.footer-podaci .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.footer-podaci .contact li {
+  padding: 5px;
+}
+.footer-podaci .contact li a {
+  color: #111;
+}
 /* media */
 @media (max-width: 980px) {
   .main-menu {
@@ -274,6 +310,32 @@ body {
   }
   .social {
     left: 5px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer-media .media {
+    margin-top: 50px;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .footer-media .media li {
+    margin-right: 25px;
+    padding: 10px;
+  }
+  .footer-media .media li a {
+    color: #111;
+  }
+  .footer-podaci .contact {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  .footer-podaci .contact li {
+    padding: 5px;
+  }
+  .hero .products {
+    margin-bottom: 300px;
   }
 }
 @media (max-width: 330px) {
