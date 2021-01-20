@@ -50,10 +50,29 @@ body {
 }
 .logo {
   cursor: pointer;
-  text-transform: uppercase;
   font-size: 2em;
 }
+.main-menu {
+  position: relative;
+}
+.main-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-menu ul li a {
+  margin-right: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.3rem;
+  transition: 0.2s;
+}
+.main-menu ul li a:hover {
+  color: #111;
+  border-bottom: #111 solid 3px;
+}
 .toggle {
+  display: none;
   position: relative;
   width: 60px;
   height: 60px;
@@ -111,23 +130,44 @@ body {
 }
 .text a {
   display: inline-block;
-  font-size: 1.5em;
-  padding: 10px 25px;
+  position: relative;
+  font-size: 1.8em;
+  padding: 20px 30px;
   background: #fff;
   color: #111;
+  z-index: 1;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: 0.2s ease;
 }
+.text .btn-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+  z-index: -1;
+  background: #034aff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.3s;
+}
+.text .btn-cta:hover::before,
+.text .btn-cta:focus::before {
+  transform: scaleX(1);
+}
 .text a:hover {
   letter-spacing: 6px;
+  color: #fff;
 }
 .social {
   position: absolute;
-  font-size: 2.5rem;
-  bottom: 50px;
+  font-size: 2.7rem;
+  bottom: 80px;
   z-index: 10;
   display: flex;
   justify-content: center;
@@ -152,6 +192,9 @@ body {
 .social li .vb:hover {
   color: purple;
 }
+.social li .wa:hover {
+  color: green;
+}
 .social li .ig:hover {
   color: #e1306c;
 }
@@ -171,16 +214,27 @@ body {
 .menu ul {
   position: relative;
 }
+.menu ul li {
+  margin-bottom: 10px;
+}
 .menu ul li a {
   font-size: 1.5em;
   color: #111;
+  text-transform: uppercase;
 }
 .menu ul li a:hover {
   color: #034aff;
 }
 
 /* media */
-
+@media (max-width: 980px) {
+  .main-menu {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+}
 @media (max-width: 798px) {
   .logo {
     font-size: 1.2em;
@@ -203,7 +257,7 @@ body {
     font-size: 2em;
   }
   .social {
-    bottom: 70px;
+    bottom: 50px;
   }
 }
 @media (max-width: 330px) {
@@ -225,6 +279,6 @@ body {
     font-size: 1.2em;
   }
   .social {
-    bottom: 40px;
+    bottom: 30px;
   }
 }
