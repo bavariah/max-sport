@@ -50,7 +50,10 @@ body {
 }
 .logo {
   cursor: pointer;
-  font-size: 2em;
+  font-size: 2.2em;
+  -webkit-text-fill-color: blue;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: 1px;
 }
 .main-menu {
   position: relative;
@@ -231,7 +234,7 @@ body {
 }
 @media (max-width: 798px) {
   .logo {
-    font-size: 1.2em;
+    font-size: 1.8em;
   }
   .hero.active {
     right: 250px;
