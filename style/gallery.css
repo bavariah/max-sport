@@ -3,8 +3,9 @@
 html {
   scroll-behavior: smooth;
 }
-* {
-  font-family: "Poppins", sans-serif;
+*,
+::after,
+::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -162,7 +163,7 @@ body {
 .section-title h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin: 5rem 0;
+  margin: 5rem 0 0;
   text-transform: capitalize;
   font-weight: bold;
   letter-spacing: 0.5rem;
@@ -170,7 +171,7 @@ body {
 .hero .products .products-center {
   position: relative;
   width: 80vw;
-  margin: 0 auto;
+  margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-column-gap: 1.5rem;
@@ -180,7 +181,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.bag-btn {
+.item-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -194,13 +195,22 @@ body {
   letter-spacing: var(--mainSpacing);
   font-weight: bold;
   transition: 0.3s;
-  transform: translateY(-101%);
+  transform: translateY(-90%);
 }
-.fa-shopping-cart {
-  margin-right: 0.5rem;
+.item-text i {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  transform: scale(1);
+  transition: 0.4s;
 }
-.img-container:hover .bag-btn {
+.img-container:hover .item-text {
   transform: translateY(0);
+}
+.img-container:hover i {
+  transform: scale(0);
 }
 .product-img {
   display: block;
@@ -226,7 +236,13 @@ body {
   color: #034aff;
   text-align: center;
 }
-
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #003cff;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ---------------End of Products ---------------- */
 footer {
   position: absolute;
@@ -237,34 +253,50 @@ footer {
   bottom: 0;
   padding: 20px;
   width: 100%;
-  min-height: 150px;
+  min-height: 250px;
   text-align: center;
-  background: #034aff;
+  opacity: 0.8;
+  /* background: #034aff; */
+  background: url(../props/footer.sport.jpg);
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  background: #1c3e5e;
+  mix-blend-mode: overlay;
 }
 .footer-media .media {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 3rem;
+  z-index: 10;
 }
 .footer-media .media li {
   margin-right: 50px;
   padding: 20px;
 }
 .footer-media .media li a {
-  color: #111;
+  color: #fff;
 }
 .footer-podaci .contact {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.6rem;
+  z-index: 10;
 }
 .footer-podaci .contact li {
   padding: 5px;
 }
 .footer-podaci .contact li a {
-  color: #111;
+  color: #fff;
 }
 /* media */
 @media (max-width: 980px) {
@@ -324,9 +356,6 @@ footer {
   .footer-media .media li {
     margin-right: 25px;
     padding: 10px;
-  }
-  .footer-media .media li a {
-    color: #111;
   }
   .footer-podaci .contact {
     justify-content: center;
