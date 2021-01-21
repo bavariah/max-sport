@@ -200,7 +200,11 @@ const hero = document.querySelector('.hero');
 const sectionProduct = document.querySelector('.products-center');
 
 window.addEventListener('DOMContentLoaded', function() {
-  let displayMenu = menu.map(function(item){
+  displayMenuItems(menu)
+});
+
+function displayMenuItems(menuItems){
+  let displayMenu = menuItems.map(function(item){
     // console.log(item);
     return `<article class="product">
     <div class="img-container">
@@ -220,5 +224,4 @@ window.addEventListener('DOMContentLoaded', function() {
   });
   displayMenu = displayMenu.join('');
   sectionProduct.innerHTML = displayMenu
-});
-
+}

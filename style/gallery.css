@@ -178,6 +178,28 @@ body {
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
 }
+.btn-container {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.filter-btn {
+  background: transparent;
+  border-color: #034aff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  border-radius: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  color: #034aff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.filter-btn:hover {
+  background: #034aff;
+  color: #fff;
+}
 .img-container {
   position: relative;
   overflow: hidden;
