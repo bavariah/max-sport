@@ -123,7 +123,7 @@ const menu = [
   },
   {
     id: 12,
-    title: "klupa",
+    title: "bucice",
     category: "bucice",
     price: 155,
     img: "../props/test.jpg",
@@ -134,7 +134,7 @@ const menu = [
   },
   {
     id: 13,
-    title: "klupa",
+    title: "bucice",
     category: "bucice",
     price: 166,
     img: "../props/test.jpg",
