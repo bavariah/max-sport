@@ -228,7 +228,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.3rem;
-  transform: scale(1);
+  /* transform: scale(1); */
   transition: 0.4s;
 }
 .img-container:hover .item-text {
@@ -281,6 +281,7 @@ footer {
   min-height: 250px;
   text-align: center;
   opacity: 0.8;
+  z-index: -1;
   /* background: #034aff; */
   background: url(../props/footer.sport.jpg);
 }
@@ -288,6 +289,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 100%;
   min-height: 250px;
@@ -363,7 +365,7 @@ footer {
   }
   .section-title h2 {
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 3rem 0 0 0;
     letter-spacing: 0.25rem;
   }
   .social {
@@ -375,7 +377,7 @@ footer {
     flex-direction: column;
   }
   .filter-btn {
-    margin: 10px 0;
+    margin: 5px 0;
   }
   footer {
     flex-direction: column;
