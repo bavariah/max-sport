@@ -55,6 +55,7 @@ body {
   -webkit-text-fill-color: #2744f0;
   -webkit-text-stroke-color: #fff;
   -webkit-text-stroke-width: 1px;
+  animation: show 1s ease;
 }
 .main-menu {
   position: relative;
@@ -79,7 +80,7 @@ body {
   transform-origin: left;
   bottom: 0;
   height: 2px;
-  background: #082b9e;
+  background: #fff;
   transition: 0.2s all linear;
 }
 .main-menu ul li:hover::before {
@@ -236,8 +237,24 @@ body {
 .menu ul li a:hover {
   color: #034aff;
 }
+/*  ====== KEYFRAMES ======= */
 
-/* media */
+@keyframes show {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ===== media ======= */
 @media (max-width: 980px) {
   .main-menu {
     display: none;
