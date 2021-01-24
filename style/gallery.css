@@ -67,8 +67,22 @@ body {
   margin-right: 30px;
   text-transform: uppercase;
   color: #fff;
+  padding: 10px 0;
   font-size: 1.3rem;
   transition: 0.2s;
+}
+.main-menu ul li::before {
+  content: "";
+  width: 0;
+  position: absolute;
+  transform-origin: left;
+  bottom: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.2s all linear;
+}
+.main-menu ul li:hover::before {
+  width: 50px;
 }
 .main-menu ul li a:hover {
   opacity: 0.8;
