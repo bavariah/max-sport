@@ -197,8 +197,22 @@ const hero = document.querySelector('.hero');
         hero.classList.toggle('active');
       })
 
+      
+            
 const sectionProduct = document.querySelector('.products-center');
 const filterBtns = document.querySelectorAll('.filter-btn');
+const container = document.querySelector(".btn-container");
+                  
+    //   active btns  
+ container.addEventListener('click', (e) => {
+                    const id = e.target.dataset.id;
+                    if (id) {
+                      filterBtns.forEach(function(btn) {
+                        btn.classList.remove("active");
+                        e.target.classList.add("active");
+                      });
+                    }
+                  });
 
 // load items
 window.addEventListener('DOMContentLoaded', function() {

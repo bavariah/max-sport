@@ -5,3 +5,4 @@ const hero = document.querySelector('.hero');
         menuToggle.classList.toggle('active');
         hero.classList.toggle('active');
       })
+
