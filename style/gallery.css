@@ -45,6 +45,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #2745f079;
   border-bottom: 5px solid #2744f0;
 }
 .logo {
@@ -70,8 +71,7 @@ body {
   transition: 0.2s;
 }
 .main-menu ul li a:hover {
-  color: #2744f0;
-  border-bottom: #2744f0 solid 3px;
+  opacity: 0.8;
 }
 .toggle {
   display: none;
