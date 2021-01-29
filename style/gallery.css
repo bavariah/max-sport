@@ -67,7 +67,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2745f079;
+  /* background: #2745f079; */
+  background: #ffffff6e;
   border-bottom: 5px solid #2744f0;
 }
 .hero header img {
@@ -246,6 +247,9 @@ body {
   background: #034aff;
   color: #fff;
 }
+.product {
+  max-width: 450px;
+}
 .img-container {
   position: relative;
   overflow: hidden;
@@ -257,6 +261,7 @@ body {
   left: 0;
   color: #fff;
   width: 100%;
+  max-width: 450px;
   height: 100%;
   background: #034aff82;
   border: none;
@@ -285,7 +290,8 @@ body {
 .product-img {
   display: block;
   width: 100%;
-  min-height: 12rem;
+  max-width: 450px;
+  height: 240px;
   transition: 0.3s;
 }
 .img-container:hover .product-img {
@@ -293,13 +299,17 @@ body {
 }
 
 .product h3 {
-  text-transform: capitalize;
-  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.3rem;
   margin-top: 1rem;
   letter-spacing: 0.1rem;
   text-align: center;
+  transition: 0.2s all;
 }
-
+.product h3:hover {
+  color: #003cff;
+}
 .product h4 {
   margin-top: 0.7rem;
   letter-spacing: 0.1rem;
