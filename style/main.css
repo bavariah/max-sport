@@ -39,6 +39,12 @@ body {
   right: 300px;
 }
 .hero header {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(39, 68, 240, 0.8) 70%
+  );
   position: absolute;
   top: 0;
   left: 0;

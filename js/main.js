@@ -13,7 +13,7 @@ const menu = [
   },
   {
     id: 2,
-    title: "klupe",
+    title: "PRO - klupa",
     category: "klupe",
     price: 122,
     img: "../props/klupe/klupa_koso.jpg",
@@ -139,7 +139,7 @@ function displayMenuItems(menuItems){
         <i class="las la-chevron-down"></i>
       </p>
     </div>
-    <a href="#" class=""><h3>${item.title}</h3></a>
+    <a href="../sprave-za-vezbanje/profesionalna-klupa.html" class=""><h3>${item.title}</h3></a>
      <!--<h4>€ ${item.price}</h4>-->
   </article>`;
   });
