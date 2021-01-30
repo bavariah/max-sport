@@ -266,7 +266,6 @@ body {
   border: none;
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
-  /* letter-spacing: var(--mainSpacing); */
   font-weight: bold;
   transition: 0.3s;
   transform: translateY(-90%);
@@ -277,10 +276,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.3rem;
-  /* transform: scale(1); */
   transition: 0.4s;
 }
-.img-container:hover .item-text {
+.img-container:hover .item-text,
+.img-container:active .item-text {
   transform: translateY(0);
 }
 .img-container:hover i {
