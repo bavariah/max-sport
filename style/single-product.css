@@ -499,7 +499,10 @@ footer {
     cursor: pointer;
   }
   .hero header {
-    padding: 30px 5px;
+    padding: 15px 5px;
+  }
+  .menu ul li a {
+    font-size: 1.3em;
   }
   .hero .products {
     padding: 4rem 0;
@@ -546,12 +549,15 @@ footer {
   }
 }
 @media (max-width: 330px) {
+  .menu ul li a {
+    font-size: 1.1em;
+  }
   .hero header img {
     width: 200px;
     cursor: pointer;
   }
   .hero header {
-    padding: 30px 5px;
+    padding: 12px 5px;
   }
   .hero {
     padding: 30px 15px;

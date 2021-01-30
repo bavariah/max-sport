@@ -2,6 +2,7 @@ const menu = [
   {
     id: 1,
     title: "sprave",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "sprave",
     price: 150,
     img: "../props/sprave/legcurl5.jpg",
@@ -14,6 +15,7 @@ const menu = [
   {
     id: 2,
     title: "PRO - klupa",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "klupe",
     price: 122,
     img: "../props/klupe/klupa_koso.jpg",
@@ -24,6 +26,7 @@ const menu = [
   {
     id: 3,
     title: "šipke",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "sipke",
     price: 144,
     img: "../props/sipke/olimp_sipka_3.jpg",
@@ -33,6 +36,7 @@ const menu = [
   {
     id: 4,
     title: "tegovi",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "tegovi",
     price: 111,
     img: "../props/test.jpg",
@@ -44,6 +48,7 @@ const menu = [
   {
     id: 5,
     title: "fitnes",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "fitnes",
     price: 123,
     img: "../props/test.jpg",
@@ -54,6 +59,7 @@ const menu = [
   },{
     id: 6,
     title: "Bokserski program",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "box",
     price: 123,
     img: "../props/box/dzakovi.jpg",
@@ -64,6 +70,7 @@ const menu = [
   },{
     id: 7,
     title: "ostalo za teretanu",
+    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "ostalo",
     price: 123,
     img: "../props/test.jpg",
@@ -139,7 +146,7 @@ function displayMenuItems(menuItems){
         <i class="las la-chevron-down"></i>
       </p>
     </div>
-    <a href="../sprave-za-vezbanje/profesionalna-klupa.html" class=""><h3>${item.title}</h3></a>
+    <a href=${item.link} class=""><h3>${item.title}</h3></a>
      <!--<h4>€ ${item.price}</h4>-->
   </article>`;
   });
