@@ -415,7 +415,7 @@ footer {
     width: 80vw;
     margin: 50px auto;
     grid-column-gap: 0;
-    grid-row-gap: 2rem;
+    grid-row-gap: 3rem;
   }
   .section-title h2 {
     font-size: 2rem;
