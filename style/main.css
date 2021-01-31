@@ -20,7 +20,6 @@ ul {
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .hero {
   position: absolute;
   right: 0;
@@ -248,6 +247,50 @@ body {
 .menu ul li a:hover {
   color: #034aff;
 }
+
+/* DROPDOWN ============= */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: -170px;
+  background-color: #f1f1f1d7;
+  min-width: 450px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 15;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+}
+
+.dropdown-content a {
+  color: black;
+  margin: 2px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(136, 137, 216);
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  top: 35px;
+}
+
+/* END DROPDOWN ============= */
+
 /*  ====== KEYFRAMES ======= */
 
 @keyframes show {
@@ -273,6 +316,48 @@ body {
   .toggle {
     display: block;
   }
+  /* DROPDOWN ============= */
+
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #f1f1f1d7;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 15;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+  }
+
+  .dropdown-content a {
+    color: black;
+    margin: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgb(136, 137, 216);
+  }
+
+  .dropdown:hover .dropdown-content {
+    visibility: visible;
+    top: 35px;
+  } */
+
+  /* END DROPDOWN ============= */
 }
 @media (max-width: 798px) {
   .hero header img {
