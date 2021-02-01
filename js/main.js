@@ -1,15 +1,13 @@
 const menu = [
   {
     id: 1,
-    title: "sprave",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    title: "Leg curl - bench klupa",
+    link: "../sprave-za-vezbanje/leg-curl-bench-klupa.html",
     category: "sprave",
     price: 150,
     img: "../props/sprave/legcurl5.jpg",
-    desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-    2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-    4. Bucice sa navojima 35cm duzine - 2000din/kom
-    5. Bucice sa navojima 38cm duzine - 2200din/kom
+    desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
+    2. Bez nastavaka je kao univerzalna bench klupa.
     `,
   },
   {
@@ -25,12 +23,12 @@ const menu = [
   },
   {
     id: 3,
-    title: "šipke",
+    title: "šipke, bučice i štipaljke fi30mm",
     link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "sipke",
     price: 144,
     img: "../props/sipke/olimp_sipka_3.jpg",
-    desc: `1. Olimpijska sipka fi50mm 220cm duzina<br>
+    desc: `1. Olimpijska sipka fi30mm 220cm duzina<br>
     2. Bucice fi30mm sa navojem`,
   },
   {
@@ -59,7 +57,7 @@ const menu = [
   },{
     id: 6,
     title: "Bokserski program",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    link: "../sprave-za-vezbanje/bokserske-vrece.html",
     category: "box",
     price: 123,
     img: "../props/box/dzakovi.jpg",
@@ -78,6 +76,16 @@ const menu = [
     2. Univerzalna bench klupa PROFESIONALNA - 170 eura
     4. Bucice sa navojima 35cm duzine - 2000din/kom
     5. Bucice sa navojima 38cm duzine - 2200din/kom`,
+  },
+  {
+    id: 8,
+    title: "Olimpijske šipke i bučice sa navojem fi50mm",
+    link: "../sprave-za-vezbanje/sipke-bucice-fi50mm.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/sipke/olimp_sipka_3.jpg",
+    desc: `1. Olimpijska sipka fi50mm 220cm duzina<br>
+    2. Bucice fi50mm sa navojem`,
   },
 ];
 
