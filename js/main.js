@@ -43,7 +43,7 @@ const menu = [
   {
     id: 5,
     title: "fitnes",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    link: "#",
     category: "fitnes",
     price: 123,
     img: "../props/test.jpg",
@@ -61,15 +61,12 @@ const menu = [
     desc: `Asortiman Bokserskih Džakova`,
   },{
     id: 7,
-    title: "ostalo za teretanu",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    title: "Stalak",
+    link: "../sprave-za-vezbanje/stalak-gym.html",
     category: "ostalo",
     price: 123,
-    img: "../props/test.jpg",
-    desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-    2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-    4. Bucice sa navojima 35cm duzine - 2000din/kom
-    5. Bucice sa navojima 38cm duzine - 2200din/kom`,
+    img: "../props/stalci/stalak4.jpg",
+    desc: `Stalak za čučanj, ramena, kosi bench, ravan bench, kontra kosi bench, + nosači za tegove`,
   },
   {
     id: 8,
@@ -109,6 +106,17 @@ const menu = [
     price: 150,
     img: "../props/zidni/mix1.jpg",
     desc: `Set zidni raboj i vratilo za trbušnjake, propadanja i zgibove.
+    `,
+  },
+  {
+    id: 12,
+    title: "Hiperextenzija",
+    link: "../sprave-za-vezbanje/hiperextenzija.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/extenzija/extenzija2.jpg",
+    desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
+    2. Bez nastavaka je kao univerzalna bench klupa.
     `,
   },
 ];
