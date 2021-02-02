@@ -119,6 +119,17 @@ const menu = [
     2. Bez nastavaka je kao univerzalna bench klupa.
     `,
   },
+  {
+    id: 13,
+    title: "Klupa za trbušnjake",
+    link: "../sprave-za-vezbanje/trbusnjaci.html",
+    category: "klupe",
+    price: 122,
+    img: "../props/trbuh/trbuh1.jpg",
+    desc: `1. Profesionalna klupa multifunkcionalna ( 8 polozaja naslon, i 4 polozaja malo sediste)
+    Ravan polozaj, kosi polozaji i pod 90°<br>
+    2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove`,
+  },
 ];
 
 const menuToggle = document.querySelector('.toggle');
