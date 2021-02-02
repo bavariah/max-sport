@@ -54,14 +54,11 @@ const menu = [
   },{
     id: 6,
     title: "Bokserski program",
-    link: "../sprave-za-vezbanje/bokserske-vrece.html",
+    link: "../sprave-za-vezbanje/bokserski-dzakovi.html",
     category: "box",
     price: 123,
     img: "../props/box/dzakovi.jpg",
-    desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-    2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-    4. Bucice sa navojima 35cm duzine - 2000din/kom
-    5. Bucice sa navojima 38cm duzine - 2200din/kom`,
+    desc: `Asortiman Bokserskih Džakova`,
   },{
     id: 7,
     title: "ostalo za teretanu",
@@ -83,6 +80,36 @@ const menu = [
     img: "../props/sipke/olimp_sipka_3.jpg",
     desc: `1. Olimpijska šipka fi50mm 220cm dužina<br>
     2. Bučice fi50mm sa navojem`,
+  },
+  {
+  id: 9,
+    title: "Vratilo extreme za zid",
+    link: "../sprave-za-vezbanje/vratilo-extreme.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/zidni/vratilo2.jpg",
+    desc: `Set raznih pozicija i hvatova za zgibove
+    `,
+  },
+  {
+  id: 10,
+    title: "Zidni razboj za propadanje i trbušnjake",
+    link: "../sprave-za-vezbanje/zidni-razboj.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/zidni/trbuh.jpg",
+    desc: `Set pozicija za trbušnjake i propadanja.
+    `,
+  },
+  {
+  id: 11,
+    title: "Sprave za zgibove, trbušnjake i propadanja",
+    link: "../sprave-za-vezbanje/zidni-multi-set.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/zidni/mix1.jpg",
+    desc: `Set zidni raboj i vratilo za trbušnjake, propadanja i zgibove.
+    `,
   },
 ];
 
