@@ -24,24 +24,21 @@ const menu = [
   {
     id: 3,
     title: "šipke, bučice i štipaljke fi30mm",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    link: "../sprave-za-vezbanje/sipke-bucice-stipaljke-fi30mm.html",
     category: "sipke",
     price: 144,
-    img: "../props/sipke/olimp_sipka_3.jpg",
-    desc: `1. Olimpijska sipka fi30mm 220cm duzina<br>
-    2. Bucice fi30mm sa navojem`,
+    img: "../props/sipke/sipke_1.jpg",
+    desc: `1. Šipka fi30mm <br>
+    2. Bučice fi30mm sa štipaljkom`,
   },
   {
     id: 4,
-    title: "tegovi",
-    link: "../sprave-za-vezbanje/profesionalna-klupa.html",
+    title: "bučice",
+    link: "../sprave-za-vezbanje/bucice.html",
     category: "tegovi",
     price: 111,
-    img: "../props/test.jpg",
-    desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-    2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-    4. Bucice sa navojima 35cm duzine - 2000din/kom
-    5. Bucice sa navojima 38cm duzine - 2200din/kom`,
+    img: "../props/tegovi/bucice4.jpg",
+    desc: `Bučice svih veličina/težina`,
   },
   {
     id: 5,
@@ -84,8 +81,8 @@ const menu = [
     category: "sipke",
     price: 144,
     img: "../props/sipke/olimp_sipka_3.jpg",
-    desc: `1. Olimpijska sipka fi50mm 220cm duzina<br>
-    2. Bucice fi50mm sa navojem`,
+    desc: `1. Olimpijska šipka fi50mm 220cm dužina<br>
+    2. Bučice fi50mm sa navojem`,
   },
 ];
 
