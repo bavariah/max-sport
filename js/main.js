@@ -182,8 +182,8 @@ const menu = [
   },
   {
     id: 19,
-    title: "Stalak/držač za šipke",
-    link: "../sprave-za-vezbanje/drzac-za-sipku.html",
+    title: "3D zglob",
+    link: "../sprave-za-vezbanje/3D-zglob.html",
     category: "ostalo",
     price: 123,
     img: "../props/drzac_za_sipku/drzac1.jpg",
