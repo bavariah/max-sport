@@ -130,6 +130,36 @@ const menu = [
     Ravan polozaj, kosi polozaji i pod 90°<br>
     2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove`,
   },
+  {
+    id: 14,
+    title: "MultiFunkcionalna Sprava",
+    link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/multi_plain/multi2.jpg",
+    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...
+    `,
+  },
+  {
+    id: 15,
+    title: "Dodaci za MultiFunkcionalna Sprava",
+    link: "../sprave-za-vezbanje/multi-funkcionalna-dodaci.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/multi_plus/multi5.jpg",
+    desc: `Dodaci za MultiFunkcionalna Sprava.
+    `,
+  },
+  {
+    id: 16,
+    title: "Velika MultiFunkcionalna Sprava",
+    link: "../sprave-za-vezbanje/multi-funkcionalna-extreme.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/multi_extreme/multi3.jpg",
+    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi, nosači za šipku kad se rade ramena, kosi bench, ravan bench, kontra kosi bench, mrtvo dizanje.
+    `,
+  },
 ];
 
 const menuToggle = document.querySelector('.toggle');
