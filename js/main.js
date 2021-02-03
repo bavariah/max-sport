@@ -59,7 +59,8 @@ const menu = [
     price: 123,
     img: "../props/box/dzakovi.jpg",
     desc: `Asortiman Bokserskih Džakova`,
-  },{
+  },
+  {
     id: 7,
     title: "Stalak",
     link: "../sprave-za-vezbanje/stalak-gym.html",
@@ -159,6 +160,61 @@ const menu = [
     img: "../props/multi_extreme/multi3.jpg",
     desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi, nosači za šipku kad se rade ramena, kosi bench, ravan bench, kontra kosi bench, mrtvo dizanje.
     `,
+  },
+  {
+    id: 17,
+    title: "Bench klupa",
+    link: "../sprave-za-vezbanje/bench-klupa.html",
+    category: "klupe",
+    price: 122,
+    img: "../props/bench/bench1.jpg",
+    desc: `Univerzalna bench klupa, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu`,
+  },
+  {
+    id: 18,
+    title: "Skot klupa",
+    link: "../sprave-za-vezbanje/skot-klupa.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/skot_klupa/bicepsi2.jpg",
+    desc: `Skot klupa. Sprava za misice nadlaktice (biceps)
+    `,
+  },
+  {
+    id: 19,
+    title: "Stalak/držač za šipke",
+    link: "../sprave-za-vezbanje/drzac-za-sipku.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/drzac_za_sipku/drzac1.jpg",
+    desc: `Stalak/držač za šipke`,
+  },
+  {
+    id: 20,
+    title: "Stalak za tegove",
+    link: "../sprave-za-vezbanje/stalak-za-tegove.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/stalak_za_tegove/stalak4.jpg",
+    desc: `Stalak za tegove`,
+  },
+  {
+    id: 21,
+    title: "Dodatak za sklekove",
+    link: "../sprave-za-vezbanje/dodatak-za-sklekove.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/sklekovi/sklek1.jpg",
+    desc: `Dodatak za sklekove`,
+  },
+  {
+    id: 22,
+    title: "Trap bar, hex bar šipka",
+    link: "../sprave-za-vezbanje/hex-trap-sipka.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/hex/hex1.jpg",
+    desc: `Trap bar, hex bar šipka`,
   },
 ];
 
