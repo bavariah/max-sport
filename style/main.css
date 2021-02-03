@@ -254,10 +254,16 @@ body {
   position: relative;
   display: inline-block;
 }
-
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+  top: 35px;
+}
 .dropdown-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  opacity: 0;
   visibility: hidden;
   position: absolute;
   top: 50px;
@@ -268,7 +274,6 @@ body {
   text-align: center;
   padding: 20px 10px;
   border-radius: 20px;
-  transition: 0.2s ease;
 }
 
 .dropdown-content a {
@@ -295,10 +300,6 @@ body {
   background-color: #084eff;
   color: #fff;
   border: none;
-}
-
-.dropdown:hover .dropdown-content {
-  visibility: visible;
 }
 
 /* END DROPDOWN ============= */
