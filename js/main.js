@@ -187,7 +187,7 @@ const menu = [
     category: "ostalo",
     price: 123,
     img: "../props/drzac_za_sipku/drzac1.jpg",
-    desc: `Stalak/držač za šipke`,
+    desc: `3D zglob za šipke`,
   },
   {
     id: 20,
