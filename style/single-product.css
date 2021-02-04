@@ -628,6 +628,11 @@ footer {
   .menu ul li a {
     font-size: 1.1em;
   }
+  .hero .products p {
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 0.9rem;
+  }
   .hero header img {
     width: 200px;
     cursor: pointer;
