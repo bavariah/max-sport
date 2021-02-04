@@ -191,14 +191,6 @@ body {
     );
   }
 }
-/* .fb-rate .contact-logo {
-  cursor: pointer;
-  font-size: 5rem;
-  -webkit-text-fill-color: #2744f0;
-  -webkit-text-stroke-color: #fff;
-  -webkit-text-stroke-width: 1px;
-  text-shadow: 0 0 20px #2744f0;
-} */
 .mapa {
   display: flex;
   flex-direction: column;
@@ -207,7 +199,7 @@ body {
 }
 .mapa img {
   height: 400px;
-  box-shadow: 0 0 5px 5px #c7c7c7;
+  box-shadow: 0 8px 6px -6px black;
 }
 .mapa .mapa-text {
   font-size: 1.4rem;
