@@ -146,14 +146,59 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.fb-rate .contact-logo {
+.contact-logo-div {
+  position: relative;
+}
+.contact-logo-div h3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+.contact-logo-div h3:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #034aff;
+}
+.contact-logo-div h3:nth-child(2) {
+  color: #034aff;
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      15% 44%,
+      32% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 60%,
+      16% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+/* .fb-rate .contact-logo {
   cursor: pointer;
   font-size: 5rem;
   -webkit-text-fill-color: #2744f0;
   -webkit-text-stroke-color: #fff;
   -webkit-text-stroke-width: 1px;
   text-shadow: 0 0 20px #2744f0;
-}
+} */
 .mapa {
   display: flex;
   flex-direction: column;
