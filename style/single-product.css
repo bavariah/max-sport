@@ -282,15 +282,20 @@ footer {
 
 @media (min-width: 451px) {
   .backBtn {
+    background: #111;
+    border: #fff 3px solid;
+    color: #fff;
     padding: 10px;
     margin: 30px 20px 10px;
     border-radius: 30px;
     font-size: 1.1rem;
     cursor: pointer;
     transition: 0.3s ease;
+    outline: none;
   }
   .backBtn:hover {
     transform: scale(1.1);
+    color: #034aff;
   }
   .hero .products {
     padding: 4rem 0;
@@ -304,10 +309,32 @@ footer {
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 0.5rem;
+    animation: headsUp 1s ease;
+  }
+  @keyframes headsUp {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
   .section-title p {
     text-align: center;
     margin: 30px 0;
+    animation: headsDown 1s ease;
+  }
+  @keyframes headsDown {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
   .hero .products p {
     text-align: center;

@@ -275,10 +275,10 @@ function displayMenuItems(menuItems){
         alt=${item.title}
         class="product-img"
       />
-      <p class="item-text">
-        ${item.desc}
-        <i class="las la-chevron-down"></i>
-      </p>
+      <a href=${item.link} class=""><p class="item-text">
+      ${item.desc}
+      <i class="las la-chevron-down"></i>
+    </p></a>
     </div>
     <a href=${item.link} class=""><h3>${item.title}</h3></a>
      <!--<h4>€ ${item.price}</h4>-->
