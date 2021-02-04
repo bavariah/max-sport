@@ -6,3 +6,6 @@ const hero = document.querySelector('.hero');
         hero.classList.toggle('active');
       })
 
+function goBack() {
+  window.history.go(-1);
+}
