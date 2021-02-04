@@ -111,12 +111,12 @@ const menu = [
   },
   {
     id: 12,
-    title: "Hiperextenzija",
+    title: "Hiperekstenzija",
     link: "../sprave-za-vezbanje/hiperextenzija.html",
     category: "sprave",
     price: 150,
     img: "../props/extenzija/extenzija2.jpg",
-    desc: `Hiperextenzija.
+    desc: `Hiperekstenzija.
     `,
   },
   {
@@ -188,12 +188,12 @@ const menu = [
   },
   {
     id: 20,
-    title: "Stalak za tegove",
+    title: "Stalak za tegove i šipke",
     link: "../sprave-za-vezbanje/stalak-za-tegove.html",
     category: "ostalo",
     price: 123,
     img: "../props/stalak_za_tegove/stalak4.jpg",
-    desc: `Stalak za tegove`,
+    desc: `Stalak za tegove i šipke`,
   },
   {
     id: 21,
