@@ -12,7 +12,7 @@ const menu = [
   },
   {
     id: 2,
-    title: "PRO - klupa",
+    title: "Profesionalna klupa",
     link: "../sprave-za-vezbanje/profesionalna-klupa.html",
     category: "klupe",
     price: 122,
