@@ -560,8 +560,11 @@ footer {
 }
 @media (max-width: 450px) {
   .backBtn {
+    background: #111;
+    border: #fff 3px solid;
+    color: #fff;
     padding: 10px;
-    margin: 30px 20px 10px;
+    margin: 25px 10px 5px;
     border-radius: 30px;
     font-size: 0.8rem;
     cursor: pointer;
