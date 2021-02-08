@@ -278,6 +278,27 @@ footer {
 .footer-podaci .contact li a {
   color: #ffffff;
 }
+.next-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next-page p {
+  padding: 10px;
+}
+.next-page a {
+  color: #1d50f7;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.next-page a:hover {
+  opacity: 0.9;
+}
+.next-page-img {
+  width: 130px;
+  border-radius: 40%;
+  margin-left: 20px;
+}
 /* media */
 
 @media (min-width: 451px) {
@@ -368,7 +389,7 @@ footer {
     top: 35%;
   }
   .hero .products .products-center .two {
-    left: 85%;
+    left: 65%;
     top: 50%;
   }
   .hero .products .products-center .three {
