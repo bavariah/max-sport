@@ -287,6 +287,17 @@ Questions
 .title {
   margin-top: 15vh;
   margin-bottom: 4rem;
+  animation: headsUp 1s ease;
+}
+@keyframes headsUp {
+  from {
+    opacity: 0.2;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .title h2 {
   color: #034aff;
