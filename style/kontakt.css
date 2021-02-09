@@ -20,6 +20,30 @@ ul {
 body {
   font-family: "Poppins", sans-serif;
 }
+/* ====== scroll ===== */
+/* width */
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+/* background */
+::-webkit-scrollbar-track-piece {
+  background: #000201;
+  width: 12px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 36, 21);
+  background: linear-gradient(
+    180deg,
+    rgb(248, 247, 247) 30%,
+    rgba(16, 103, 173, 1) 55%
+  );
+}
+/* ====== end scroll ===== */
 .hero {
   position: absolute;
   right: 0;
