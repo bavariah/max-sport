@@ -200,6 +200,9 @@ body {
 .social li .kp {
   color: blue;
 }
+.social li .phone:hover {
+  color: rgb(187, 114, 19);
+}
 .menu {
   position: absolute;
   top: 0;
