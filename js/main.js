@@ -40,18 +40,28 @@ const menu = [
     img: "../props/tegovi/bucice4.jpg",
     desc: `Bučice svih veličina/težina`,
   },
+  // {
+  //   id: 5,
+  //   title: "fitnes",
+  //   link: "#",
+  //   category: "fitnes",
+  //   price: 123,
+  //   img: "../props/test.jpg",
+  //   desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
+  //   2. Univerzalna bench klupa PROFESIONALNA - 170 eura
+  //   4. Bucice sa navojima 35cm duzine - 2000din/kom
+  //   5. Bucice sa navojima 38cm duzine - 2200din/kom`,
+  // },
+   {
+     id: 5,
+     title: "set-komplet",
+     link: "../sprave-za-vezbanje/set-komplet.html",
+     category: "komplet",
+     price: 123,
+     img: "../props/komplet/komplet1.jpg",
+     desc: `Komplet sprava`,
+   },
   {
-    id: 5,
-    title: "fitnes",
-    link: "#",
-    category: "fitnes",
-    price: 123,
-    img: "../props/test.jpg",
-    desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-    2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-    4. Bucice sa navojima 35cm duzine - 2000din/kom
-    5. Bucice sa navojima 38cm duzine - 2200din/kom`,
-  },{
     id: 6,
     title: "Bokserski program",
     link: "../sprave-za-vezbanje/bokserski-dzakovi.html",
@@ -212,6 +222,60 @@ const menu = [
     price: 144,
     img: "../props/hex/hex1.jpg",
     desc: `Trap bar, hex bar šipka`,
+  },
+  {
+    id: 23,
+    title: "EZ šipka",
+    link: "../sprave-za-vezbanje/ez-sipka.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/sipke/ez1.jpg",
+    desc: `EZ šipka`,
+  },
+  {
+    id: 24,
+    title: "tegovi",
+    link: "../sprave-za-vezbanje/tegovi.html",
+    category: "tegovi",
+    price: 111,
+    img: "../props/tegovi/tegovi1.jpg",
+    desc: `Tegovi svih veličina/težina`,
+  },
+  {
+    id: 25,
+    title: "Stalak za bučice",
+    link: "../sprave-za-vezbanje/stalak-za-bucice.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/tegovi/polica4.jpg",
+    desc: `Stalak za bučice - ČVRSTE KONSTRUKCIJE, MODERAN DIZAJN`,
+  },
+  {
+    id: 26,
+    title: "Stalak za bučice 2",
+    link: "../sprave-za-vezbanje/stalak-za-bucice-mini.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/tegovi/drzac4.jpg",
+    desc: `Stalak za bučice manjih težina`,
+  },
+  {
+    id: 27,
+    title: "ZIDNI NOSAČ ZA DŽAK ZA BOKS",
+    link: "../sprave-za-vezbanje/zidni-nosac-za-boks-dzak.html",
+    category: "box",
+    price: 123,
+    img: "../props/dzak_dodatak/dzak4.jpg",
+    desc: `Asortiman Bokserskih Džakova`,
+  },
+  {
+    id: 28,
+    title: "Dodaci sprava",
+    link: "../sprave-za-vezbanje/dodatak-za-sprave.html",
+    category: "ostalo",
+    price: 123,
+    img: "../props/ostalo/dodaci1.jpg",
+    desc: `Dodaci sprava, šipke, konopci, držači itd`,
   },
 ];
 

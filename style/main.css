@@ -276,7 +276,7 @@ body {
   justify-content: start;
   align-items: center;
   min-width: 240px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: black;
   margin: 1px;
   border-radius: 10px;
