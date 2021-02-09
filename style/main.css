@@ -59,14 +59,6 @@ body {
   width: 350px;
   cursor: pointer;
 }
-/* .logo {
-  cursor: pointer;
-  font-size: 2.2em;
-  -webkit-text-fill-color: #2744f0;
-  -webkit-text-stroke-color: #fff;
-  -webkit-text-stroke-width: 1px;
-  animation: show 1s ease;
-} */
 .main-menu {
   position: relative;
 }
@@ -305,24 +297,13 @@ body {
 
 /* END DROPDOWN ============= */
 
-/*  ====== KEYFRAMES ======= */
-
-@keyframes show {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  80% {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
+/* ===== media ======= */
+@media (max-width: 1280px) {
+  .dropdown-content {
+    top: 50px;
+    right: -270px;
   }
 }
-
-/* ===== media ======= */
 @media (max-width: 980px) {
   .main-menu {
     display: none;
@@ -330,48 +311,6 @@ body {
   .toggle {
     display: block;
   }
-  /* DROPDOWN ============= */
-
-  /* .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    visibility: hidden;
-    position: absolute;
-    top: 35px;
-    left: 0;
-    background-color: #f1f1f1d7;
-    min-width: 130px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 15;
-    text-align: center;
-    padding: 20px 10px;
-    border-radius: 20px;
-    transition: 0.2s ease-in;
-  }
-
-  .dropdown-content a {
-    color: black;
-    margin: 0;
-    border-radius: 10px;
-    padding: 10px 15px;
-    font-size: 1.1rem;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {
-    background-color: rgb(136, 137, 216);
-  }
-
-  .dropdown:hover .dropdown-content {
-    visibility: visible;
-    top: 35px;
-  } */
-
-  /* END DROPDOWN ============= */
 }
 @media (max-width: 798px) {
   .hero header img {
