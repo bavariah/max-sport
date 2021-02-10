@@ -132,19 +132,19 @@ const menu = [
   {
     id: 13,
     title: "Klupa za trbušnjake",
-    link: "../sprave-za-vezbanje/trbusnjaci.html",
+    link: "../sprave-za-vezbanje/klupa-za-trbusnjake.html",
     category: "klupe",
     price: 122,
-    img: "../props/trbuh/trbuh1.jpg",
-    desc: `Klupa za trbušnjake. Podesiva.`,
+    img: "../props/trbuh/univerz3.jpg",
+    desc: `Klupa za trbušnjake.`,
   },
   {
     id: 14,
-    title: "MultiFunkcionalna Sprava",
+    title: "Tower EXTREME i PRO",
     link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
     category: "sprave",
     price: 150,
-    img: "../props/multi_plain/multi2.jpg",
+    img: "../props/multi_plain/multi5.jpg",
     desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...
     `,
   },
@@ -276,6 +276,15 @@ const menu = [
     price: 123,
     img: "../props/ostalo/dodaci1.jpg",
     desc: `Dodaci sprava, šipke, konopci, držači itd`,
+  },
+  {
+    id: 29,
+    title: "Univerzalna Klupa",
+    link: "../sprave-za-vezbanje/univerzalna-klupa.html",
+    category: "klupe",
+    price: 122,
+    img: "../props/trbuh/univerz3.jpg",
+    desc: `Univerzalna bench klupa 6 položaja`,
   },
 ];
 
