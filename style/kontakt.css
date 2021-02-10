@@ -223,10 +223,10 @@ body {
 }
 @keyframes headsUp {
   from {
-    transform: translateY(200px);
+    transform: translateX(100px);
   }
   to {
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
 }
 .fb-rate {
@@ -288,7 +288,9 @@ body {
 }
 .mapa img {
   height: 450px;
-  box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 0 0 10px 2px #003cff;
+  -moz-box-shadow: 0 0 10px 2px #003cff;
+  box-shadow: 0 0 10px 2px #003cff;
 }
 .mapa .mapa-text {
   font-size: 1.4rem;
