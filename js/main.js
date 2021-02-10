@@ -252,8 +252,8 @@ const menu = [
   },
   {
     id: 26,
-    title: "Stalak za bučice 2",
-    link: "../sprave-za-vezbanje/stalak-za-bucice-mini.html",
+    title: "Stalak za hex bučice",
+    link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
     category: "ostalo",
     price: 123,
     img: "../props/tegovi/drzac4.jpg",
@@ -285,6 +285,25 @@ const menu = [
     price: 122,
     img: "../props/trbuh/univerz3.jpg",
     desc: `Univerzalna bench klupa 6 položaja`,
+  },
+  {
+    id: 30,
+    title: "Rusko zvono",
+    link: "../sprave-za-vezbanje/rusko-zvono.html",
+    category: "tegovi",
+    price: 111,
+    img: "../props/rusko/rusko1.png",
+    desc: `Rusko Zvono`,
+  },
+  {
+    id: 31,
+    title: "Bumper tegovi",
+    link: "../sprave-za-vezbanje/bumper-tegovi.html",
+    category: "tegovi",
+    price: 111,
+    img: "../props/bumper/bumper1.png",
+    desc: `Nema čelika nego su od gume i pogodni su za kućne varijante jer prilikom padanja, bacanja ne oštećuju pod.
+    Ploče su od : 5kg; 10kg; 15kg; 20kg`,
   },
 ];
 
