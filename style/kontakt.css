@@ -522,6 +522,14 @@ body {
   .mapa img {
     height: 200px;
   }
+  @keyframes headsUp {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
 }
 @media (max-width: 330px) {
   .hero header img {
