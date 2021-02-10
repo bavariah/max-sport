@@ -383,9 +383,9 @@ footer {
   .hero .products .products-center img {
     height: 300px;
     width: 350px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 3px 8px 6px -6px black;
+    -webkit-box-shadow: 0 0 10px 2px #000;
+    -moz-box-shadow: 0 0 10px 2px #000;
+    box-shadow: 0 0 10px 2px #000;
   }
 }
 @media (min-width: 891px) {
@@ -583,6 +583,9 @@ footer {
     width: 280px;
     width: 100%;
     position: static;
+    -webkit-box-shadow: 0 0 10px 2px #000;
+    -moz-box-shadow: 0 0 10px 2px #000;
+    box-shadow: 0 0 10px 2px #000;
   }
   .social {
     top: 55%;
