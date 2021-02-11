@@ -621,10 +621,32 @@ footer {
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 0.5rem;
+    animation: headsUp 1s ease;
   }
   .section-title p {
     text-align: center;
     margin: 30px 0;
+    animation: headsDown 1s ease;
+  }
+  @keyframes headsUp {
+    from {
+      opacity: 0;
+      transform: translateX(-80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes headsDown {
+    from {
+      opacity: 0;
+      transform: translateX(80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
   .hero .products p {
     text-align: center;
