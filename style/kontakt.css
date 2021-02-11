@@ -515,9 +515,13 @@ body {
   .menu ul li a {
     font-size: 1.3em;
   }
+  .fb-rate .contact-logo {
+    font-size: 2.7rem;
+    letter-spacing: 0.3rem;
+  }
   .social {
     margin: 100px 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .mapa img {
     height: 200px;
@@ -561,8 +565,15 @@ body {
     padding: 10px;
     font-size: 1.4rem;
   }
+  .fb-rate .contact-logo {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .mapa img {
+    height: 180px;
+  }
   .social {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .mapa .mapa-text {
     font-size: 1rem;
