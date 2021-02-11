@@ -135,7 +135,7 @@ const menu = [
     link: "../sprave-za-vezbanje/klupa-za-trbusnjake.html",
     category: "klupe",
     price: 122,
-    img: "../props/trbuh/univerz3.jpg",
+    img: "../props/trbuh/trbuh1.jpg",
     desc: `Klupa za trbušnjake.`,
   },
   {

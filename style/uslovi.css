@@ -306,6 +306,14 @@ Questions
 .title h2 span {
   color: #fff;
 }
+.title-desc {
+  color: #000000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  max-width: 60%;
+  padding: 10px 30px;
+  margin: auto;
+}
 .section-center {
   max-width: var(--fixed-width);
 }
@@ -484,7 +492,7 @@ Questions
     background: linear-gradient(
       90deg,
       rgba(255, 255, 255, 0.8) 0%,
-      rgba(39, 68, 240, 0.9) 80%
+      rgba(39, 68, 240, 0.9) 85%
     );
   }
   .contact {
@@ -493,7 +501,7 @@ Questions
     background: linear-gradient(
       90deg,
       rgba(255, 255, 255, 1) 0%,
-      rgba(39, 68, 240, 1) 80%
+      rgba(39, 68, 240, 1) 85%
     );
     color: #111;
     padding: 0;
@@ -507,6 +515,13 @@ Questions
     margin: 40px auto 0;
     color: #111;
     padding: 0;
+  }
+  .title-desc {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    max-width: 90%;
+    padding: 10px 5px;
+    margin: auto;
   }
   .hero header {
     padding: 15px 5px;
