@@ -420,6 +420,15 @@ footer {
   /* background: #034aff; */
   background: url(../props/footer.sport.jpg);
 }
+aside {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+}
+aside a {
+  font-size: 0.7rem;
+  color: #fff;
+}
 .overlay {
   position: absolute;
   bottom: 0;

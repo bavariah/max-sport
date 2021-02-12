@@ -141,6 +141,15 @@ body {
   object-fit: cover;
   opacity: 0.8;
 }
+aside {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+}
+aside a {
+  font-size: 0.7rem;
+  color: #fff;
+}
 /* DROPDOWN ============= */
 
 .dropdown {
