@@ -198,30 +198,7 @@ body {
 .social li .phone:hover {
   color: rgb(187, 114, 19);
 }
-.menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.menu ul {
-  position: relative;
-}
-.menu ul li {
-  margin-bottom: 10px;
-}
-.menu ul li a {
-  font-size: 1.5em;
-  color: #111;
-  text-transform: uppercase;
-}
-.menu ul li a:hover {
-  color: #034aff;
-}
+
 /* DROPDOWN ============= */
 
 .dropdown {
@@ -438,6 +415,30 @@ body {
   margin-right: auto;
 }
 /* ---------------End of Products ---------------- */
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  position: relative;
+}
+.menu ul li {
+  margin-bottom: 10px;
+}
+.menu ul li a {
+  font-size: 1.5em;
+  color: #111;
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  color: #034aff;
+}
 footer {
   position: absolute;
   display: flex;
@@ -503,6 +504,7 @@ aside a {
 .footer-podaci .contact li a {
   color: #ffffff;
 }
+
 /* media */
 @media (max-width: 1280px) {
   .dropdown-content {
