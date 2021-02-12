@@ -303,6 +303,10 @@ body {
   color: #003cff;
   animation: headsRight 2s ease;
 }
+.section-title h2 span::before {
+  content: " | ";
+  color: #fff;
+}
 @keyframes headsUp {
   from {
     opacity: 0;
@@ -602,6 +606,10 @@ aside a {
   }
   .menu ul li a {
     font-size: 1.3em;
+  }
+  .section-title h2 span::before {
+    content: "";
+    color: #fff;
   }
 }
 @media (max-width: 330px) {
