@@ -292,13 +292,36 @@ body {
   text-transform: capitalize;
   font-weight: bold;
   letter-spacing: 0.5rem;
+  animation: headsUp 1s ease;
 }
 .section-title h2 {
   text-align: center;
   margin: 20px 0;
+  animation: headsLeft 1s ease;
 }
 .section-title h2 span {
   color: #003cff;
+  animation: headsRight 2s ease;
+}
+@keyframes headsUp {
+  from {
+    opacity: 0;
+    transform: translateY(-120px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes headsLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 .hero .products .products-center {
   position: relative;
