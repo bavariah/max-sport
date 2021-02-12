@@ -416,3 +416,4 @@ function SVS_B(eAmt, where) {
   if (where == "top")
       window.scrollBy(0, eAmt);
 }
+SmoothVerticalScrolling(mybutton, 275, "top");
