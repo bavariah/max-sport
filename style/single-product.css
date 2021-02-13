@@ -92,7 +92,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background: #2745f079; */
   background: #ffffff;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -259,30 +258,6 @@ body {
 .social li .phone:hover {
   color: rgb(187, 114, 19);
 }
-.menu {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.menu ul {
-  position: relative;
-}
-.menu ul li {
-  margin-bottom: 10px;
-}
-.menu ul li a {
-  font-size: 1.5em;
-  color: #111;
-  text-transform: uppercase;
-}
-.menu ul li a:hover {
-  color: #034aff;
-}
 
 footer {
   position: absolute;
@@ -297,7 +272,6 @@ footer {
   text-align: center;
   opacity: 0.8;
   z-index: -1;
-  /* background: #034aff; */
   background: url(../props/footer.sport.jpg);
 }
 .overlay {
@@ -359,6 +333,30 @@ footer {
   border-radius: 20%;
   -webkit-box-shadow: 0 0 10px #fff;
   box-shadow: 0 0 10px #fff;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  position: relative;
+}
+.menu ul li {
+  margin-bottom: 10px;
+}
+.menu ul li a {
+  font-size: 1.5em;
+  color: #111;
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  color: #034aff;
 }
 /* media */
 
