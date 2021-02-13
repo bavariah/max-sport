@@ -24,7 +24,7 @@ body {
 /* ====== scroll ===== */
 /* width */
 ::-webkit-scrollbar {
-  width: 0.8em;
+  width: 0.6em;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -33,7 +33,6 @@ body {
 /* background */
 ::-webkit-scrollbar-track-piece {
   background: #000201;
-  width: 12px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
