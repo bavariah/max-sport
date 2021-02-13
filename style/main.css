@@ -328,11 +328,37 @@ aside a {
     bottom: 50px;
     right: 50px;
   }
+  .hero header img {
+    width: 270px;
+    cursor: pointer;
+  }
+  .hero header {
+    padding: 15px 5px;
+  }
+  .text a {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+  .text a:hover {
+    color: #111;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h4 {
+    font-size: 2em;
+  }
+  .social {
+    bottom: 30px;
+  }
 }
 @media (max-width: 798px) {
   .hero header img {
     width: 250px;
     cursor: pointer;
+  }
+  .hero header {
+    padding: 15px 5px;
   }
   .hero.active {
     right: 250px;
@@ -340,13 +366,16 @@ aside a {
   .menu {
     width: 250px;
   }
-  .hero,
-  .hero header {
+  .hero {
     padding: 40px 20px;
   }
   .text .btn-cta:hover::before,
   .text .btn-cta:focus::before {
     transform: scaleX(0);
+  }
+  .text a {
+    padding: 15px;
+    font-size: 1.5rem;
   }
   .text a:hover {
     color: #111;

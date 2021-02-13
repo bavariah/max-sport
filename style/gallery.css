@@ -304,9 +304,13 @@ body {
     transform: translateX(0px);
   }
 }
+/* .hero .products {
+  position: relative;
+  z-index: 2;
+} */
 .hero .products .products-center {
   position: relative;
-  width: 80vw;
+  width: 60vw;
   margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -452,7 +456,6 @@ footer {
   text-align: center;
   opacity: 0.8;
   z-index: -1;
-  /* background: #034aff; */
   background: url(../props/footer.sport.jpg);
 }
 aside {
@@ -657,7 +660,6 @@ aside a {
   }
   .social {
     font-size: 2.2rem;
-    /* top: 30%; */
     left: 2px;
   }
 }
