@@ -9,7 +9,7 @@ const menu = [
     price: 150,
     img: "../props/sprave/legcurl5.jpg",
     desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
-    2. Bez nastavaka je kao univerzalna bench klupa.
+    2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -21,26 +21,26 @@ const menu = [
     img: "../props/klupe/klupa_koso.jpg",
     desc: `1. Profesionalna klupa multifunkcionalna ( 8 polozaja naslon, i 4 polozaja malo sediste)
     Ravan polozaj, kosi polozaji i pod 90°<br>
-    2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove`,
+    2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove<br><br> Po želji boja metala/sunđera.`,
   },
   {
     id: 3,
-    title: "šipke, bučice i štipaljke fi30mm",
-    link: "../sprave-za-vezbanje/sipke-bucice-stipaljke-fi30mm.html",
-    category: "sipke",
-    price: 144,
-    img: "../props/sipke/sipke_1.jpg",
-    desc: `1. Šipka fi30mm <br>
-    2. Bučice fi30mm sa štipaljkom`,
+    title: "Dodaci za MultiFunkcionalnu Spravu",
+    link: "../sprave-za-vezbanje/multi-funkcionalna-dodaci.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/multi_plus/multi5.jpg",
+    desc: `Dodaci za MultiFunkcionalnu Spravu.<br><br> Po želji boja metala/sunđera.
+    `,
   },
   {
     id: 4,
-    title: "bučice",
-    link: "../sprave-za-vezbanje/bucice.html",
-    category: "tegovi",
-    price: 111,
-    img: "../props/tegovi/bucice4.jpg",
-    desc: `Bučice svih veličina/težina`,
+    title: "Univerzalna Klupa",
+    link: "../sprave-za-vezbanje/univerzalna-klupa.html",
+    category: "klupe",
+    price: 122,
+    img: "../props/trbuh/univerz3.jpg",
+    desc: `Univerzalna bench klupa 6 položaja<br><br> Po želji boja metala/sunđera.`,
   },
   // {
   //   id: 5,
@@ -98,7 +98,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/vratilo2.jpg",
-    desc: `Set raznih pozicija i hvatova za zgibove
+    desc: `Set raznih pozicija i hvatova za zgibove<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -108,7 +108,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/trbuh.jpg",
-    desc: `Set pozicija za trbušnjake i propadanja.
+    desc: `Set pozicija za trbušnjake i propadanja.<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -118,7 +118,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/mix1.jpg",
-    desc: `Set zidni razboj i vratilo za trbušnjake, propadanja i zgibove.
+    desc: `Set zidni razboj i vratilo za trbušnjake, propadanja i zgibove.<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -128,7 +128,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/extenzija/extenzija2.jpg",
-    desc: `Hiperekstenzija.
+    desc: `Hiperekstenzija.<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -138,7 +138,7 @@ const menu = [
     category: "klupe",
     price: 122,
     img: "../props/trbuh/trbuh1.jpg",
-    desc: `Klupa za trbušnjake.`,
+    desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/sunđera.`,
   },
   {
     id: 14,
@@ -147,18 +147,18 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/multi_plain/multi5.jpg",
-    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...
+    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
     id: 15,
-    title: "Dodaci za MultiFunkcionalnu Spravu",
-    link: "../sprave-za-vezbanje/multi-funkcionalna-dodaci.html",
-    category: "sprave",
-    price: 150,
-    img: "../props/multi_plus/multi5.jpg",
-    desc: `Dodaci za MultiFunkcionalnu Spravu.
-    `,
+    title: "šipke, bučice i štipaljke fi30mm",
+    link: "../sprave-za-vezbanje/sipke-bucice-stipaljke-fi30mm.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/sipke/sipke_1.jpg",
+    desc: `1. Šipka fi30mm <br>
+    2. Bučice fi30mm sa štipaljkom`,
   },
   {
     id: 16,
@@ -177,7 +177,7 @@ const menu = [
     category: "klupe",
     price: 122,
     img: "../props/bench/bench1.jpg",
-    desc: `Univerzalna bench klupa sa stalkom za šipku, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu`,
+    desc: `Univerzalna bench klupa sa stalkom za šipku, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu<br><br> Po želji boja metala/sunđera.`,
   },
   {
     id: 18,
@@ -186,7 +186,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/skot_klupa/bicepsi2.jpg",
-    desc: `Skot klupa. Sprava za mišiće nadlaktice (biceps)
+    desc: `Skot klupa. Sprava za mišiće nadlaktice (biceps)<br><br> Po želji boja metala/sunđera.
     `,
   },
   {
@@ -268,7 +268,7 @@ const menu = [
     category: "box",
     price: 123,
     img: "../props/dzak_dodatak/dzak4.jpg",
-    desc: `Asortiman Bokserskih Džakova`,
+    desc: `Asortiman Bokserskih Džakova<br><br> Po želji boja metala.`,
   },
   {
     id: 28,
@@ -281,12 +281,12 @@ const menu = [
   },
   {
     id: 29,
-    title: "Univerzalna Klupa",
-    link: "../sprave-za-vezbanje/univerzalna-klupa.html",
-    category: "klupe",
-    price: 122,
-    img: "../props/trbuh/univerz3.jpg",
-    desc: `Univerzalna bench klupa 6 položaja`,
+    title: "bučice",
+    link: "../sprave-za-vezbanje/bucice.html",
+    category: "tegovi",
+    price: 111,
+    img: "../props/tegovi/bucice4.jpg",
+    desc: `Bučice svih veličina/težina`,
   },
   {
     id: 30,

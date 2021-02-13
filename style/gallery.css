@@ -350,7 +350,7 @@ body {
   overflow: hidden;
 }
 .item-text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -361,7 +361,7 @@ body {
   background: #034aff82;
   border: none;
   text-transform: uppercase;
-  padding: 1.5rem 1rem;
+  padding: 1.2rem 1rem;
   font-weight: bold;
   transition: 0.3s;
   transform: translateY(-90%);
