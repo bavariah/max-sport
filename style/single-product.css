@@ -221,7 +221,6 @@ body {
   transform: translateY(-50%);
   left: 10px;
   z-index: 10;
-  /* box-shadow: 0 0 10px 10px #003cff; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,6 +440,10 @@ footer {
     -moz-box-shadow: 0 0 10px 2px #000;
     box-shadow: 0 0 10px 2px #000;
   }
+
+  .hero .products p span {
+    color: green;
+  }
 }
 @media (min-width: 891px) {
   .hero .products .products-center {
@@ -611,6 +614,9 @@ footer {
     padding: 4rem 0;
     position: relative;
     margin-bottom: 200px;
+  }
+  .hero .products p span {
+    color: green;
   }
   .section-title h2 {
     text-align: center;
