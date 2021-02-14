@@ -1,3 +1,14 @@
+// make sure sw are supp
+
+if('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+    .register('../sw_cached_site.js')
+    .then(reg => console.log('service worker reg'))
+    .catch(err => console.log(`service worker: error: ${err}`))
+  })
+}
+
 const menuToggle = document.querySelector('.toggle');
 const hero = document.querySelector('.hero');
 
