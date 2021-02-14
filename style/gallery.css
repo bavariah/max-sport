@@ -598,7 +598,7 @@ aside a {
 }
 @media (max-width: 450px) {
   .item-text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 1rem 0.5rem;
   }
   .hero header img {
