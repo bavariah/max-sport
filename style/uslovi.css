@@ -282,6 +282,12 @@ aside a {
   margin: 0 auto;
   max-width: 1170px;
 }
+.questions .container {
+  display: flex;
+}
+.questions img {
+  width: 500px;
+}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -459,6 +465,15 @@ Questions
     top: 50px;
     right: -270px;
   }
+  .questions .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .questions img {
+    width: 400px;
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 980px) {
   .main-menu {
@@ -523,6 +538,10 @@ Questions
     margin: 40px auto 0;
     color: #111;
     padding: 0;
+  }
+  .questions img {
+    width: 300px;
+    margin-bottom: 50px;
   }
   .title-desc {
     font-size: 0.9rem;

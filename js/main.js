@@ -369,6 +369,17 @@ const menu = [
 
     Podešava se nagib, izvlači se ili uvlači da bi bila viša ili niža u zavisnosti kakvo opterećenje želite da vam bude prilikom vežbanja.<br><br> Po želji boja metala/kože.`,
   },
+  {
+    id: 37,
+    title: "Profesionalni Leg Press i Hek Mašina",
+    link: "../sprave-za-vezbanje/leg-press.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/sprave/leg2.jpg",
+    desc: `Dve sprave u jednoj (2u1), za kućne i komercijalne teretane. Mogućnost prilagođavanja sprave iz Leg pressa u Hek mašinu u dva poteza, 
+    Izradjen od debelozidnih cevi 3mm...<br><br> Po želji boja metala/kože.
+    `,
+  },
 ];
 
 const menuToggle = document.querySelector('.toggle');
