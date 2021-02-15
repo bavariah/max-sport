@@ -21,7 +21,7 @@ const menu = [
     price: 150,
     img: "../props/sprave/legcurl5.jpg",
     desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
-    2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/sunđera.
+    2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -33,7 +33,7 @@ const menu = [
     img: "../props/klupe/klupa_koso.jpg",
     desc: `1. Profesionalna klupa multifunkcionalna ( 8 polozaja naslon, i 4 polozaja malo sediste)
     Ravan polozaj, kosi polozaji i pod 90°<br>
-    2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove<br><br> Po želji boja metala/sunđera.`,
+    2. Stalak za ramena, kosi bench, ravan bench - podesiv po sirini + nosaci za tegove<br><br> Po želji boja metala/kože.`,
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/multi_plus/multi5.jpg",
-    desc: `Dodaci za MultiFunkcionalnu Spravu.<br><br> Po želji boja metala/sunđera.
+    desc: `Dodaci za MultiFunkcionalnu Spravu.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -52,7 +52,7 @@ const menu = [
     category: "klupe",
     price: 122,
     img: "../props/trbuh/univerz3.jpg",
-    desc: `Univerzalna bench klupa 6 položaja<br><br> Po želji boja metala/sunđera.`,
+    desc: `Univerzalna bench klupa 6 položaja<br><br> Po želji boja metala/kože.`,
   },
   // {
   //   id: 5,
@@ -110,7 +110,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/vratilo2.jpg",
-    desc: `Set raznih pozicija i hvatova za zgibove<br><br> Po želji boja metala/sunđera.
+    desc: `Set raznih pozicija i hvatova za zgibove<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -120,7 +120,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/trbuh.jpg",
-    desc: `Set pozicija za trbušnjake i propadanja.<br><br> Po želji boja metala/sunđera.
+    desc: `Set pozicija za trbušnjake i propadanja.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -130,7 +130,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/zidni/mix1.jpg",
-    desc: `Set zidni razboj i vratilo za trbušnjake, propadanja i zgibove.<br><br> Po želji boja metala/sunđera.
+    desc: `Set zidni razboj i vratilo za trbušnjake, propadanja i zgibove.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -140,7 +140,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/extenzija/extenzija2.jpg",
-    desc: `Hiperekstenzija.<br><br> Po želji boja metala/sunđera.
+    desc: `Hiperekstenzija.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -150,7 +150,7 @@ const menu = [
     category: "klupe",
     price: 122,
     img: "../props/trbuh/trbuh1.jpg",
-    desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/sunđera.`,
+    desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/kože.`,
   },
   {
     id: 14,
@@ -159,7 +159,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/multi_plain/multi5.jpg",
-    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...<br><br> Po želji boja metala/sunđera.
+    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -189,7 +189,7 @@ const menu = [
     category: "klupe",
     price: 122,
     img: "../props/bench/bench1.jpg",
-    desc: `Univerzalna bench klupa sa stalkom za šipku, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu<br><br> Po želji boja metala/sunđera.`,
+    desc: `Univerzalna bench klupa sa stalkom za šipku, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu<br><br> Po želji boja metala/kože.`,
   },
   {
     id: 18,
@@ -198,7 +198,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/skot_klupa/bicepsi2.jpg",
-    desc: `Skot klupa. Sprava za mišiće nadlaktice (biceps)<br><br> Po želji boja metala/sunđera.
+    desc: `Skot klupa. Sprava za mišiće nadlaktice (biceps)<br><br> Po želji boja metala/kože.
     `,
   },
   {
