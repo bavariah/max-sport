@@ -295,7 +295,7 @@ const menu = [
     id: 29,
     title: "bučice",
     link: "../sprave-za-vezbanje/bucice.html",
-    category: "tegovi",
+    category: "sipke",
     price: 111,
     img: "../props/tegovi/bucice4.jpg",
     desc: `Bučice svih veličina/težina`,
