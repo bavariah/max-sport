@@ -453,6 +453,49 @@ const menu = [
       desc: `Zidno vratilo EXTREME, na njemu se moze raditi 5 vrsti zgibovi (5 hvatova), siroki hvat 110cm, rucice sa strane su blago povijene na dole. Uz vratilo dobijate tiplove i srafove.
       `,
     },
+    {
+      id: 45,
+        title: "Vratilo 45° za ugao sobe",
+        link: "../sprave-za-vezbanje/vratilo-za-ugao.html",
+        category: "vratila",
+        price: 150,
+        img: "../props/zidni/ug2.jpg",
+        desc: `Vratilo 45° za ugao sobe (ćošak) sa ručicama, dužine 110 cm.. Uz vratilo dobijate tiplove i šrafove..
+        `,
+      },
+      {
+        id: 46,
+        title: "Kosa Klupa za trbušnjake",
+        link: "../sprave-za-vezbanje/kosa-klupa-za-trbusnjake.html",
+        category: "klupe",
+        price: 122,
+        img: "../props/trbuh/kk3.jpg",
+        desc: `Kosa klupa za trbušnjake izrađena od profila 40x40, jaka, stabilna i izdržljiva klupa,
+        Klupa ima 5 položaja kosine za vežbanje, to jest podešavanje nagiba.
+        Mogućnost podešavanja razmaka između gornjih i donjih sunđera za noge, to jest podešavanje visine između sunđera, ima 4 nivoa podešavanja.`,
+      },
+      {
+        id: 46,
+          title: "Vratilo samostojeće",
+          link: "../sprave-za-vezbanje/samostojece-vratilo.html",
+          category: "vratila",
+          price: 150,
+          img: "../props/sprave/vr1.jpg",
+          desc: `Vratilo samostojeće za apsolutne zgibove izrađeno od profila 40x40,
+          Veoma jaka, masivna i teška sprava, jako stabilna,
+          Vratilo ima stepenik za niže vežbače.
+          `,
+        },
+        {
+          id: 47,
+          title: "Lat mašina",
+          link: "../sprave-za-vezbanje/lat-masina.html",
+          category: "sprave",
+          price: 150,
+          img: "../props/sprave/lat1.jpg",
+          desc: `Lat mašina veoma jaka, masivna, stabilna, funkcionalna, izrađena od profila 60x40 i 40x40, ima i donji kotur za suvo veslanje i ostale vežbe, uz mašinu se dobija duža i kraca šipka obložene sunđerastim ručkama, noge od mašine se skidaju radi lakšeg transporta i unošenja u prostoriju. Mogućnost izrade i ostalih nastavaka za lat mašinu..
+          `,
+        },
 ];
 
 const menuToggle = document.querySelector('.toggle');
