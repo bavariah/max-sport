@@ -275,7 +275,7 @@ const menu = [
     category: "stalci",
     price: 123,
     img: "../props/tegovi/drzac4.jpg",
-    desc: `Stalak za bučice manjih težina`,
+    desc: `Stalak za hex bučice, 1-10kg`,
   },
   {
     id: 27,
@@ -284,7 +284,8 @@ const menu = [
     category: "box",
     price: 123,
     img: "../props/dzak_dodatak/dzak4.jpg",
-    desc: `Asortiman Bokserskih Džakova<br><br> Po želji boja metala.`,
+    desc: `Zidni držač(nosac) za boks  džak (kik boks), izrada po zelji kupca.
+    Uz držač  dobijate tiple i srafove.`,
   },
   {
     id: 28,
@@ -293,7 +294,18 @@ const menu = [
     category: "sprave",
     price: 123,
     img: "../props/ostalo/dodaci1.jpg",
-    desc: `Dodaci sprava, šipke, konopci, držači itd`,
+    desc: `Jednorucni kanap za triceps, 
+    Dvorucni kanap za triceps, 
+    Triceps press nastavak, 
+    Uski paralelni hvat, 
+    Jednorucni nastavak, 
+    Kriva sipka za cross masinu, 
+    Sipka lat , 
+    Kriva sipka za lat, 
+    Nastavak nogu za primicanje, 
+    Pojas za opterecenje, 
+    Skot nastavak, 
+    Nastavak za prednju i zadnju lozu`,
   },
   {
     id: 29,
@@ -549,6 +561,15 @@ const menu = [
               desc: `Profesionalni stalak za ramena,čučanj,kosi bench,ravan bench
               Veoma cvrst i stabilan stalak. 
               Ima sa strane 4  nosaca za odlaganje ploca. `,
+            },
+            {
+              id: 53,
+              title: "Stalak za hex bučice (uspravni)",
+              link: "../sprave-za-vezbanje/stalak-hex-bucice-uspravni.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/tegovi/u1.jpg",
+              desc: `Stalak za hex bučice (uspravni), 1-10kg`,
             },
 ];
 
