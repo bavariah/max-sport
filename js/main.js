@@ -159,7 +159,7 @@ const menu = [
     link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
     category: "gladijatori",
     price: 150,
-    img: "../props/multi_plain/multi5.jpg",
+    img: "../props/multi_plain/multi2.jpg",
     desc: `Vratilo samostojeće (Power Tower) izrađeno od profila 60x40, jaka, masivna i teška sprava, jako stabilna, uski hvat je 55cm a široki hvat je 110cm, ima i ručke za sklekove, sve ručice su oblozene sunđerastom ručkom..<br><br> Po želji boja metala/kože.
     `,
   },
@@ -570,6 +570,27 @@ const menu = [
               price: 123,
               img: "../props/tegovi/u1.jpg",
               desc: `Stalak za hex bučice (uspravni), 1-10kg`,
+            },
+            {
+              id: 54,
+              title: "Vratilo samostojeće (POWER TOWER EXTREME)",
+              link: "../sprave-za-vezbanje/vratilo-samostojece-extreme.html",
+              category: "gladijatori",
+              price: 150,
+              img: "../props/multi_plain/ext2.jpg",
+              desc: `Vratilo samostojece  (Power Tower EXTREME) 
+              Izradjeno od profila 60x40, jaka, masivna i teska sprava, jako stabilna, i pre svega veoma funkcionalna, vratilo je EXTREME<br><br> Po želji boja metala/kože.
+              `,
+            },
+            {
+              id: 55,
+              title: "Plafonski NOSAČI ZA BOKS DŽAK",
+              link: "../sprave-za-vezbanje/plafonski-nosac-za-boks-dzak.html",
+              category: "box",
+              price: 123,
+              img: "../props/dzak_dodatak/dzak3.jpg",
+              desc: `Plafonski nosac za boks dzak.
+              Uz držač dobijate tiple i srafove. .`,
             },
 ];
 
