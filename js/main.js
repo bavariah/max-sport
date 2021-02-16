@@ -488,7 +488,7 @@ const menu = [
       },
       {
         id: 46,
-          title: "Vratilo samostojeće",
+          title: "Vratilo za apsolutne zgibove(ruski zgibovi)",
           link: "../sprave-za-vezbanje/samostojece-vratilo.html",
           category: "vratila",
           price: 150,
