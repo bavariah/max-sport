@@ -82,7 +82,7 @@ const menu = [
     category: "box",
     price: 123,
     img: "../props/box/dzakovi.jpg",
-    desc: `Asortiman Bokserskih Džakova`,
+    desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene, i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
   },
   {
     id: 7,
@@ -128,7 +128,7 @@ const menu = [
   id: 11,
     title: "Sprave za zgibove, trbušnjake i propadanja",
     link: "../sprave-za-vezbanje/zidni-multi-set.html",
-    category: "gladijatori",
+    category: "vratila",
     price: 150,
     img: "../props/zidni/mix1.jpg",
     desc: `Set zidni razboj i vratilo za trbušnjake, propadanja i zgibove.<br><br> Po želji boja metala/kože.
@@ -144,15 +144,15 @@ const menu = [
     desc: `Sprava za vežbanje donjeg dela leđa ( hiperekstenzija ) izradjena od profila 60x40 i 40x40, jaka i stabilna, ima podešavanje po visini vežbovnog dela kao i podešavanje po visini dela za noge.  <br><br> Po želji boja metala/kože.
     `,
   },
-  {
-    id: 13,
-    title: "Klupa za trbušnjake",
-    link: "../sprave-za-vezbanje/klupa-za-trbusnjake.html",
-    category: "klupe",
-    price: 122,
-    img: "../props/trbuh/trbuh1.jpg",
-    desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/kože.`,
-  },
+  // {
+  //   id: 13,
+  //   title: "Klupa za trbušnjake",
+  //   link: "../sprave-za-vezbanje/klupa-za-trbusnjake.html",
+  //   category: "klupe",
+  //   price: 122,
+  //   img: "../props/trbuh/trbuh1.jpg",
+  //   desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/kože.`,
+  // },
   {
     id: 14,
     title: "Vratilo samostojeće (POWER TOWER)",
@@ -241,15 +241,15 @@ const menu = [
     img: "../props/hex/hex1.jpg",
     desc: `Trap bar, hex bar šipka fi30 i fi50`,
   },
-  {
-    id: 23,
-    title: "EZ šipka",
-    link: "../sprave-za-vezbanje/ez-sipka.html",
-    category: "sipke",
-    price: 144,
-    img: "../props/sipke/ez1.jpg",
-    desc: `EZ šipka`,
-  },
+  // {
+  //   id: 23,
+  //   title: "EZ šipka",
+  //   link: "../sprave-za-vezbanje/ez-sipka.html",
+  //   category: "sipke",
+  //   price: 144,
+  //   img: "../props/sipke/ez1.jpg",
+  //   desc: `EZ šipka`,
+  // },
   {
     id: 24,
     title: "tegovi fi30 i fi50",
@@ -279,7 +279,7 @@ const menu = [
   },
   {
     id: 27,
-    title: "NOSAČI ZA BOKS DŽAK",
+    title: "zidni NOSAČI ZA BOKS DŽAK",
     link: "../sprave-za-vezbanje/zidni-nosac-za-boks-dzak.html",
     category: "box",
     price: 123,
@@ -310,7 +310,7 @@ const menu = [
     link: "../sprave-za-vezbanje/rusko-zvono.html",
     category: "tegovi",
     price: 111,
-    img: "../props/rusko/rusko1.png",
+    img: "../props/rusko/r1.jpg",
     desc: `Rusko Zvono, girje, kettlebell od: 4kg, 8kg, 12kg, 16kg, 20kg, 24kg`,
   },
   {
@@ -496,6 +496,27 @@ const menu = [
           desc: `Lat mašina veoma jaka, masivna, stabilna, funkcionalna, izrađena od profila 60x40 i 40x40, ima i donji kotur za suvo veslanje i ostale vežbe, uz mašinu se dobija duža i kraca šipka obložene sunđerastim ručkama, noge od mašine se skidaju radi lakšeg transporta i unošenja u prostoriju. Mogućnost izrade i ostalih nastavaka za lat mašinu..
           `,
         },
+        {
+          id: 48,
+            title: "Vratilo za plafon EXTREME",
+            link: "../sprave-za-vezbanje/vratilo-za-plafon-extreme.html",
+            category: "vratila",
+            price: 150,
+            img: "../props/zidni/vr1.jpg",
+            desc: `Vratilo za plafon EXTREME, na njemu se moze raditi 5 vrsti zgibovi (5 hvatova), siroki hvat 110cm, rucice su blago povijene na dole.  Uz vratilo dobijate tiplove i šrafove.
+            `,
+          },
+          {
+            id: 49,
+              title: "Vratilo za plafon",
+              link: "../sprave-za-vezbanje/vratilo-za-plafon.html",
+              category: "vratila",
+              price: 150,
+              img: "../props/zidni/vr4.jpg",
+              desc: `Vratilo za plafon.
+              Sirina 110cm siri hvat i 55 cm paralelni hvat..  Uz vratilo dobijate tiplove i šrafove.
+              `,
+            },
 ];
 
 const menuToggle = document.querySelector('.toggle');
