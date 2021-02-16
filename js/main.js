@@ -174,12 +174,15 @@ const menu = [
   },
   {
     id: 16,
-    title: "Velika MultiFunkcionalna Sprava",
-    link: "../sprave-za-vezbanje/multi-funkcionalna-extreme.html",
+    title: "Profesionalni Half rack",
+    link: "../sprave-za-vezbanje/profesionalni-half-rack.html",
     category: "gladijatori",
     price: 150,
-    img: "../props/multi_extreme/multi3.jpg",
-    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi, nosači za šipku kad se rade ramena, kosi bench, ravan bench, kontra kosi bench, mrtvo dizanje.
+    img: "../props/multi_extreme/multi5.jpg",
+    desc: `Profesionalni Half rack za kucne i komercijalne teretane.                                                                                
+    Izradjen od profila 50x50x3mm, I 60x40x3mm, veoma cvrst, masivan i stabilan, flahovi debljine 5mm.
+    Dobijaju se nastavci za sipku, duzi nastavci za sipku ( mrtvo dizanje ili sigurnosni nosaci ) i nastavci za propadanje.  
+    Nastavci su brzomontirajuci, i uz njih dobijate i srafove.
     `,
   },
   {
@@ -235,7 +238,7 @@ const menu = [
     category: "sipke",
     price: 144,
     img: "../props/hex/hex1.jpg",
-    desc: `Trap bar, hex bar šipka`,
+    desc: `Trap bar, hex bar šipka fi30 i fi50`,
   },
   {
     id: 23,
@@ -252,8 +255,8 @@ const menu = [
     link: "../sprave-za-vezbanje/tegovi.html",
     category: "tegovi",
     price: 111,
-    img: "../props/tegovi/tegovi1.jpg",
-    desc: `Tegovi svih veličina/težina`,
+    img: "../props/tegovi/t2.jpg",
+    desc: `Tegovi fi30mm i fi50mm: 1,25kg; 2,5kg; 5kg; 10kg; 15kg; 20kg`,
   },
   {
     id: 25,
@@ -275,7 +278,7 @@ const menu = [
   },
   {
     id: 27,
-    title: "ZIDNI NOSAČ ZA BOKS DŽAK",
+    title: "NOSAČI ZA BOKS DŽAK",
     link: "../sprave-za-vezbanje/zidni-nosac-za-boks-dzak.html",
     category: "box",
     price: 123,
@@ -307,7 +310,7 @@ const menu = [
     category: "tegovi",
     price: 111,
     img: "../props/rusko/rusko1.png",
-    desc: `Rusko Zvono, girje, kettlebell`,
+    desc: `Rusko Zvono, girje, kettlebell od: 4kg, 8kg, 12kg, 16kg, 20kg, 24kg`,
   },
   {
     id: 31,
@@ -379,6 +382,46 @@ const menu = [
     desc: `Dve sprave u jednoj (2u1), za kućne i komercijalne teretane. Mogućnost prilagođavanja sprave iz Leg pressa u Hek mašinu u dva poteza, 
     Izradjen od debelozidnih cevi 3mm...<br><br> Po želji boja metala/kože.
     `,
+  },
+  {
+    id: 38,
+    title: "Trap bar, hex bar šipka (pokretne ručke)",
+    link: "../sprave-za-vezbanje/hex-trap-pokretne-rucke.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/hex/h1.jpg",
+    desc: `Trap bar, hex bar šipka`,
+  },
+  {
+    id: 39,
+    title: "Razboj za propadanje",
+    link: "../sprave-za-vezbanje/razboj-za-propadanje.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/sprave/r1.jpg",
+    desc: `Razboj za propadanje, veoma čvrst i stabilan. . . 
+    Ceo je od kutija 60x40, ima dole gumene navlake, ne kliza.
+    `,
+  },
+  {
+    id: 40,
+    title: "Gumeni pod za teretane",
+    link: "../sprave-za-vezbanje/gumeni-pod-za-teretanu.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/ostalo/p3.jpg",
+    desc: `Gumeni pod za teretane. 
+    Ploče su dimenzija 50cm x 50cm x 2cm
+    `,
+  },
+  {
+    id: 41,
+    title: "šipke i bučice sa navojem fi30mm",
+    link: "../sprave-za-vezbanje/sipke-bucice-sa-navojem-fi30.html",
+    category: "sipke",
+    price: 144,
+    img: "../props/sipke/bucice3.jpg",
+    desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
   },
 ];
 
