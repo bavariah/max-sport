@@ -84,15 +84,15 @@ const menu = [
     img: "../props/box/dzakovi.jpg",
     desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene, i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
   },
-  {
-    id: 7,
-    title: "Stalak",
-    link: "../sprave-za-vezbanje/stalak-gym.html",
-    category: "stalci",
-    price: 123,
-    img: "../props/stalci/stalak4.jpg",
-    desc: `Stalak za čučanj, ramena, kosi bench, ravan bench, kontra kosi bench, + nosači za tegove`,
-  },
+  // {
+  //   id: 7,
+  //   title: "Stalak",
+  //   link: "../sprave-za-vezbanje/stalak-gym.html",
+  //   category: "stalci",
+  //   price: 123,
+  //   img: "../props/stalci/stalak4.jpg",
+  //   desc: `Stalak za čučanj, ramena, kosi bench, ravan bench, kontra kosi bench, + nosači za tegove`,
+  // },
   {
     id: 8,
     title: "Olimpijske šipke i bučice fi50mm",
@@ -516,6 +516,39 @@ const menu = [
               desc: `Vratilo za plafon.
               Sirina 110cm siri hvat i 55 cm paralelni hvat..  Uz vratilo dobijate tiplove i šrafove.
               `,
+            },
+            {
+              id: 50,
+              title: "Stalak iz dva dela",
+              link: "../sprave-za-vezbanje/stalak-iz-dva-dela.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/stalci/dd1.jpg",
+              desc: `Stalak iz dva dela(čučanj, ramena , bench, propadanje, nosači)
+              Stalci iz dva nezavisna dela koja se pomeraju i steluje se i širina i visina. 
+              Jako stabilni i čvrsti.`,
+            },
+            {
+              id: 51,
+              title: "Stalak za čučanj, bench, ramena",
+              link: "../sprave-za-vezbanje/stalak-za-cucanj.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/stalci/st4.jpg",
+              desc: `Veoma cvrst i stabilan, izradjen od kutija 40x40
+              Na rasklapanje je zbog transporta.  
+              Ima 5 nivoa za podesavanje visine.`,
+            },
+            {
+              id: 52,
+              title: "Profesionalni stalak",
+              link: "../sprave-za-vezbanje/profesionalni-stalak.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/stalci/sr5.jpg",
+              desc: `Profesionalni stalak za ramena,čučanj,kosi bench,ravan bench
+              Veoma cvrst i stabilan stalak. 
+              Ima sa strane 4  nosaca za odlaganje ploca. `,
             },
 ];
 
