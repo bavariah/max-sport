@@ -37,7 +37,7 @@ const menu = [
   },
   {
     id: 3,
-    title: "Dodaci za MultiFunkcionalnu Spravu",
+    title: "Dodaci za Univerzalnu Spravu",
     link: "../sprave-za-vezbanje/multi-funkcionalna-dodaci.html",
     category: "sprave",
     price: 150,
@@ -105,12 +105,12 @@ const menu = [
   },
   {
   id: 9,
-    title: "Vratilo extreme za zid",
-    link: "../sprave-za-vezbanje/vratilo-extreme.html",
+    title: "Zidno Vratilo",
+    link: "../sprave-za-vezbanje/zidno-vratilo.html",
     category: "vratila",
     price: 150,
-    img: "../props/zidni/vratilo2.jpg",
-    desc: `Set raznih pozicija i hvatova za zgibove<br><br> Po želji boja metala/kože.
+    img: "../props/zidni/v2.jpg",
+    desc: `Zidno vratilo, veoma čvrsto i kvalitetno odrađeno, uski hvat 55cm a siroki 110cm, ručice sa strane su blago povijene na dole, ručice su obložene original sunđerastom ručkom.
     `,
   },
   {
@@ -119,8 +119,9 @@ const menu = [
     link: "../sprave-za-vezbanje/zidni-razboj.html",
     category: "vratila",
     price: 150,
-    img: "../props/zidni/trbuh.jpg",
-    desc: `Set pozicija za trbušnjake i propadanja.<br><br> Po želji boja metala/kože.
+    img: "../props/zidni/p2.jpg",
+    desc: `Razboj za propadanja i stomak, sirina hvata je 55cm. rucice su oblozenje sundjerastom ruckom.
+    Uz razboj dobijate tiple i šrafove
     `,
   },
   {
@@ -154,12 +155,12 @@ const menu = [
   },
   {
     id: 14,
-    title: "Tower EXTREME i PRO",
+    title: "Vratilo samostojeće (POWER TOWER)",
     link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
     category: "gladijatori",
     price: 150,
     img: "../props/multi_plain/multi5.jpg",
-    desc: `Velika sprava multifunkcionalna - zgibovi, propadanje, sklekovi...<br><br> Po želji boja metala/kože.
+    desc: `Vratilo samostojeće (Power Tower) izrađeno od profila 60x40, jaka, masivna i teška sprava, jako stabilna, uski hvat je 55cm a široki hvat je 110cm, ima i ručke za sklekove, sve ručice su oblozene sunđerastom ručkom..<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -423,6 +424,35 @@ const menu = [
     img: "../props/sipke/bucice3.jpg",
     desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
   },
+  {
+    id: 42,
+    title: "Univerzalna sprava",
+    link: "../sprave-za-vezbanje/univerzalna-sprava.html",
+    category: "gladijatori",
+    price: 150,
+    img: "../props/multi_plus/multi5.jpg",
+    desc: `Univerzalna sprava za zgibove, propadanja, bench, ramena, čučnjeve, sklekove, mrtvo dizanje.
+    `,
+  },
+  {
+    id: 43,
+    title: "Stalak za tegove i razboj za propadanje",
+    link: "../sprave-za-vezbanje/stalak-razboj.html",
+    category: "stalci",
+    price: 123,
+    img: "../props/stalci/s2.jpg",
+    desc: `Stalak za tegove, razboj za propadanja izrađen od profila 40x40, veoma jak i stabilan, sa 5 položaja visine.`,
+  },
+  {
+    id: 44,
+      title: "Zidno vratilo EXTREME",
+      link: "../sprave-za-vezbanje/vratilo-extreme.html",
+      category: "vratila",
+      price: 150,
+      img: "../props/zidni/e2.jpg",
+      desc: `Zidno vratilo EXTREME, na njemu se moze raditi 5 vrsti zgibovi (5 hvatova), siroki hvat 110cm, rucice sa strane su blago povijene na dole. Uz vratilo dobijate tiplove i srafove.
+      `,
+    },
 ];
 
 const menuToggle = document.querySelector('.toggle');
