@@ -365,7 +365,7 @@ body {
   background: #034aff82;
   border: none;
   text-transform: uppercase;
-  padding: 1.2rem 1rem;
+  padding: 1rem 0.8rem;
   font-weight: bold;
   transition: 0.3s;
   transform: translateY(-90%);
@@ -602,8 +602,8 @@ aside a {
 }
 @media (max-width: 450px) {
   .item-text {
-    font-size: 0.8rem;
-    padding: 1rem 0.5rem;
+    font-size: 0.7rem;
+    padding: 0.8rem 0.5rem;
   }
   .btn-container {
     margin: 4rem auto;
@@ -642,7 +642,7 @@ aside a {
   }
   .item-text {
     font-size: 0.7rem;
-    padding: 1rem 0.5rem;
+    padding: 0.7rem 0.5rem;
   }
   .hero header img {
     width: 200px;

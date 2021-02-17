@@ -41,7 +41,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/multi_plus/multi5.jpg",
-    desc: `Dodaci za MultiFunkcionalnu Spravu.<br><br> Po želji boja metala/kože.
+    desc: `Dodatak za propadanje i trbušnjake za multifunkcionalnu spravu.<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -60,7 +60,7 @@ const menu = [
     category: "sprave",
     price: 150,
     img: "../props/sprave/legcurl5.jpg",
-    desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
+    desc: `Opcije:<br> 1. Može se skinuti nastavak za noge i ubaciti skot nastavak. <br>
     2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/kože.
     `,
   },
@@ -71,7 +71,7 @@ const menu = [
     category: "box",
     price: 123,
     img: "../props/box/dzakovi.jpg",
-    desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene, i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
+    desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
   },
   {
     id: 8,
@@ -100,8 +100,8 @@ const menu = [
     category: "vratila",
     price: 150,
     img: "../props/zidni/p2.jpg",
-    desc: `Razboj za propadanja i stomak, sirina hvata je 55cm. rucice su oblozenje sundjerastom ruckom.
-    Uz razboj dobijate tiple i šrafove
+    desc: `Razboj za propadanja i stomak, širina hvata je 55cm. ručice su obložene sunđerastom ručkom.
+    Uz razboj dobijate tiple i šrafove.
     `,
   },
   {
@@ -201,7 +201,7 @@ const menu = [
     category: "sprave",
     price: 123,
     img: "../props/sklekovi/sklek1.jpg",
-    desc: `Dodatak za sklekove`,
+    desc: `Dodatak za sklekove ' sklekeri`,
   },
   {
     id: 22,
@@ -246,8 +246,8 @@ const menu = [
     category: "box",
     price: 123,
     img: "../props/dzak_dodatak/dzak4.jpg",
-    desc: `Zidni držač(nosac) za boks  džak (kik boks), izrada po zelji kupca.
-    Uz držač  dobijate tiple i srafove.`,
+    desc: `Zidni držač(nosač) za boks  džak (kik boks), izrada po želji kupca.
+    Uz držač  dobijate tiple i šrafove.`,
   },
   {
     id: 28,
@@ -256,18 +256,18 @@ const menu = [
     category: "sprave",
     price: 123,
     img: "../props/ostalo/dodaci1.jpg",
-    desc: `Jednorucni kanap za triceps, 
-    Dvorucni kanap za triceps, 
+    desc: `Jednoručni kanap za triceps, 
+    Dvoručni kanap za triceps, 
     Triceps press nastavak, 
     Uski paralelni hvat, 
-    Jednorucni nastavak, 
-    Kriva sipka za cross masinu, 
-    Sipka lat , 
-    Kriva sipka za lat, 
+    Jednoručni nastavak, 
+    Kriva šipka za cross masinu, 
+    šipka lat , 
+    Kriva šipka za lat, 
     Nastavak nogu za primicanje, 
-    Pojas za opterecenje, 
+    Pojas za opterećenje, 
     Skot nastavak, 
-    Nastavak za prednju i zadnju lozu`,
+    Nastavak za prednju i zadnju ložu`,
   },
   {
     id: 29,
@@ -276,7 +276,7 @@ const menu = [
     category: "sipke",
     price: 111,
     img: "../props/tegovi/bucice4.jpg",
-    desc: `Bučice svih veličina/težina`,
+    desc: `Bučice - brzomontirajuće sa tegovima`,
   },
   {
     id: 30,
@@ -295,7 +295,7 @@ const menu = [
     price: 111,
     img: "../props/bumper/bumper1.png",
     desc: `Nema čelika nego su od gume i pogodni su za kućne varijante jer prilikom padanja, bacanja ne oštećuju pod.
-    Ploče su od : 5kg; 10kg; 15kg; 20kg`,
+    Ploče su od:<br><br> 5kg, 10kg, 15kg, 20kg`,
   },
   {
     id: 32,
