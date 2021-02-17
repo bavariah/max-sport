@@ -235,12 +235,12 @@ const menu = [
   },
   {
     id: 22,
-    title: "Trap bar, hex bar šipka",
-    link: "../sprave-za-vezbanje/hex-trap-sipka.html",
+    title: "šipke i bučice sa navojem fi30mm",
+    link: "../sprave-za-vezbanje/sipke-bucice-sa-navojem-fi30.html",
     category: "sipke",
     price: 144,
-    img: "../props/hex/hex1.jpg",
-    desc: `Trap bar, hex bar šipka fi30 i fi50`,
+    img: "../props/sipke/bucice3.jpg",
+    desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
   },
   // {
   //   id: 23,
@@ -430,12 +430,12 @@ const menu = [
   },
   {
     id: 41,
-    title: "šipke i bučice sa navojem fi30mm",
-    link: "../sprave-za-vezbanje/sipke-bucice-sa-navojem-fi30.html",
+    title: "Trap bar, hex bar šipka",
+    link: "../sprave-za-vezbanje/hex-trap-sipka.html",
     category: "sipke",
     price: 144,
-    img: "../props/sipke/bucice3.jpg",
-    desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
+    img: "../props/hex/hex1.jpg",
+    desc: `Trap bar, hex bar šipka fi30 i fi50`,
   },
   {
     id: 42,
@@ -493,7 +493,7 @@ const menu = [
           link: "../sprave-za-vezbanje/samostojece-vratilo.html",
           category: "vratila",
           price: 150,
-          img: "../props/sprave/vr1.jpg",
+          img: "../props/sprave/vr4.jpg",
           desc: `Vratilo samostojeće za apsolutne zgibove izrađeno od profila 40x40,
           Veoma jaka, masivna i teška sprava, jako stabilna,
           Vratilo ima stepenik za niže vežbače.
@@ -642,7 +642,7 @@ const menu = [
               id: 60,
               title: "STOJEĆI SKOT (45 i 90)",
               link: "../sprave-za-vezbanje/stojeci-skot.html",
-              category: "klupe",
+              category: "sprave",
               price: 123,
               img: "../props/skot_klupa/s1.jpg",
               desc: `Stojeći skot veoma čvrst, stabilan i masivan, rasklopiv radi lakšeg transporta. 

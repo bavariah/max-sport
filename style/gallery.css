@@ -620,6 +620,9 @@ aside a {
   .menu ul li a {
     font-size: 1.3em;
   }
+  .section-title h2 span {
+    display: block;
+  }
   .section-title h2 span::before {
     content: "";
     color: #fff;
