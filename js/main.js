@@ -592,6 +592,95 @@ const menu = [
               desc: `Plafonski nosac za boks dzak.
               Uz držač dobijate tiple i srafove. .`,
             },
+            {
+              id: 56,
+              title: "Ručka za vežbanje podlaktice i nadlaktice",
+              link: "../sprave-za-vezbanje/rucka-za-podlakticu-nadlakticu.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/ostalo/r2.jpg",
+              desc: `Ručka za vežbanje podlaktice i nadlaktice (ceo set)<br>
+              Set ručka, kanap, i mesto za tegove.`,
+            },
+            {
+              id: 57,
+              title: "Zidni Razboj za propadanje",
+              link: "../sprave-za-vezbanje/zidni-razboj-za-propadanje.html",
+              category: "vratila",
+              price: 123,
+              img: "../props/zidni/rg1.jpg",
+              desc: `Razboj za propadanje, veoma čvrsto, ručke su obložene sunđerastom ručkom.
+              Unutrašnja širina je od 55 do 61 cm, sto je i standard za propadanje. 
+              Uz razboj dobijate šrafove i tiple.`,
+            },
+            {
+              id: 58,
+              title: "Vratilo, razboj i trbušnjaci (3u1)",
+              link: "../sprave-za-vezbanje/vratilo-razboj-trbusnjaci.html",
+              category: "vratila",
+              price: 123,
+              img: "../props/zidni/brt1.jpg",
+              desc: `Vratilo za zgibove više hvatova.
+              Razboj za propadanje i trbušnjake.
+              Veoma čvrsto i jako, kutije 35x35.
+              Uz Vratilo dobijate i kuke za tiplovanje i šrafljenje kao i tiple i šrafove.  `,
+            },
+            {
+              id: 59,
+              title: "TopRoller - ručka za vežbe obaranja ruku",
+              link: "../sprave-za-vezbanje/top-roller.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/ostalo/s1.jpg",
+              desc: `Ručka za vežbe obaranja ruku.
+              Može i za desnu i za levu ruku da se koristi.
+              Veoma je čvrsta ručka, jak i masivan lanac koji nikako ne može spasti sa kruga dok vežbate, 
+              Uz ručku dobijate i sajlu, zakačaljke i nastavak na koji stavljate tegove.`,
+            },
+            {
+              id: 60,
+              title: "STOJEĆI SKOT (45 i 90)",
+              link: "../sprave-za-vezbanje/stojeci-skot.html",
+              category: "klupe",
+              price: 123,
+              img: "../props/skot_klupa/s1.jpg",
+              desc: `Stojeći skot veoma čvrst, stabilan i masivan, rasklopiv radi lakšeg transporta. 
+              Podešavanje nivoa visine naslona skota radi prilagođavanja visini vežbaca, 
+              Podešavanje visine nosača tegova nezavisno jednih od drugih i visine naslona skota, 
+              Sprava je profesionalno odrađena da svim vežbacima odgovara.`,
+            },
+            {
+              id: 61,
+              title: "bench klupa za sve",
+              link: "../sprave-za-vezbanje/bench-klupa-za-sve.html",
+              category: "klupe",
+              price: 123,
+              img: "../props/klupe/kk1.jpg",
+              desc: `
+              Bench klupa ima 6 položaja nagiba.
+              Stalak za šipku je zavaren za bench klupu koji ima 5 položaja visine, može da sve vežbe rade od kontra kosog bencha, ravnog, kosog, i ramena. 
+              Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40`,
+            },
+            {
+              id: 62,
+              title: "Half Rack 2",
+              link: "../sprave-za-vezbanje/half-rack-2.html",
+              category: "gladijatori",
+              price: 123,
+              img: "../props/sprave/hr1.jpg",
+              desc: `
+              Half Rack 2. Po želji boja konstrukcije, izrađen od profila 60x40x3mm i 50x50x3mm`,
+            },
+            {
+              id: 63,
+              title: "šipka za triceps",
+              link: "../sprave-za-vezbanje/sipka-za-triceps.html",
+              category: "sipke",
+              price: 123,
+              img: "../props/sipke/t1.jpg",
+              desc: `
+              šipka za triceps`,
+            },
 ];
 
 const menuToggle = document.querySelector('.toggle');
