@@ -173,6 +173,8 @@ body {
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  max-height: 80vh;
+  overflow: auto;
   top: 50px;
   right: -100px;
   background-color: #f1f1f1;

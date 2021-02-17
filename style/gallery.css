@@ -214,6 +214,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   opacity: 0;
+  max-height: 80vh;
+  overflow: auto;
   visibility: hidden;
   position: absolute;
   top: 50px;

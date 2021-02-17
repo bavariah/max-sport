@@ -53,18 +53,6 @@ const menu = [
     img: "../props/klupe/univerz6.jpg",
     desc: `Univerzalna bench klupa 6 položaja<br><br> Po želji boja metala/kože.`,
   },
-  // {
-  //   id: 5,
-  //   title: "fitnes",
-  //   link: "#",
-  //   category: "fitnes",
-  //   price: 123,
-  //   img: "../props/test.jpg",
-  //   desc: `1. Half Rack 2 PROFESIONALNI - 375 eura
-  //   2. Univerzalna bench klupa PROFESIONALNA - 170 eura
-  //   4. Bucice sa navojima 35cm duzine - 2000din/kom
-  //   5. Bucice sa navojima 38cm duzine - 2200din/kom`,
-  // },
   {
     id: 5,
     title: "Leg curl - bench klupa",
@@ -85,15 +73,6 @@ const menu = [
     img: "../props/box/dzakovi.jpg",
     desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene, i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
   },
-  // {
-  //   id: 7,
-  //   title: "Stalak",
-  //   link: "../sprave-za-vezbanje/stalak-gym.html",
-  //   category: "stalci",
-  //   price: 123,
-  //   img: "../props/stalci/stalak4.jpg",
-  //   desc: `Stalak za čučanj, ramena, kosi bench, ravan bench, kontra kosi bench, + nosači za tegove`,
-  // },
   {
     id: 8,
     title: "Olimpijske šipke i bučice fi50mm",
@@ -145,22 +124,13 @@ const menu = [
     desc: `Sprava za vežbanje donjeg dela leđa ( hiperekstenzija ) izradjena od profila 60x40 i 40x40, jaka i stabilna, ima podešavanje po visini vežbovnog dela kao i podešavanje po visini dela za noge.  <br><br> Po želji boja metala/kože.
     `,
   },
-  // {
-  //   id: 13,
-  //   title: "Klupa za trbušnjake",
-  //   link: "../sprave-za-vezbanje/klupa-za-trbusnjake.html",
-  //   category: "klupe",
-  //   price: 122,
-  //   img: "../props/trbuh/trbuh1.jpg",
-  //   desc: `Klupa za trbušnjake.<br><br> Po želji boja metala/kože.`,
-  // },
   {
     id: 14,
     title: "Vratilo samostojeće (POWER TOWER)",
     link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
     category: "gladijatori",
     price: 150,
-    img: "../props/multi_plain/multi2.jpg",
+    img: "../props/multi_plain/multi7.jpg",
     desc: `Vratilo samostojeće (Power Tower) izrađeno od profila 60x40, jaka, masivna i teška sprava, jako stabilna, uski hvat je 55cm a široki hvat je 110cm, ima i ručke za sklekove, sve ručice su oblozene sunđerastom ručkom..<br><br> Po želji boja metala/kože.
     `,
   },
@@ -242,15 +212,6 @@ const menu = [
     img: "../props/sipke/bucice3.jpg",
     desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
   },
-  // {
-  //   id: 23,
-  //   title: "EZ šipka",
-  //   link: "../sprave-za-vezbanje/ez-sipka.html",
-  //   category: "sipke",
-  //   price: 144,
-  //   img: "../props/sipke/ez1.jpg",
-  //   desc: `EZ šipka`,
-  // },
   {
     id: 24,
     title: "tegovi fi30 i fi50",
@@ -338,7 +299,7 @@ const menu = [
   },
   {
     id: 32,
-    title: " hex bučice",
+    title: "hex bučice",
     link: "../sprave-za-vezbanje/hex-bucice.html",
     category: "sipke",
     price: 111,
