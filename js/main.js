@@ -13,7 +13,6 @@ if('serviceWorker' in navigator) {
 
 
 const menu = [
-  
   {
     id: 1,
     title: "set-komplet",
@@ -74,7 +73,7 @@ const menu = [
     desc: `Profi džakovi od: 100cm, 120cm, 150cm, 180cm. Džakovi su kvalitetni i kvalitetna je cerada iz uvoza, kao i šivenje. Uz džak dobijate karabiner da zakačite džak. Imam svoju proizvodnju i džakova i sprava, tako da i držač možete da poručite od mene i dužinu držača i da bude za zid ili plafon. Može odabir boje metala i boja cerade`,
   },
   {
-    id: 8,
+    id: 7,
     title: "Olimpijske šipke i bučice fi50mm",
     link: "../sprave-za-vezbanje/sipke-bucice-fi50mm.html",
     category: "sipke",
@@ -84,7 +83,7 @@ const menu = [
     2. Bučice fi50mm sa navojem`,
   },
   {
-  id: 9,
+  id: 8,
     title: "Zidno Vratilo",
     link: "../sprave-za-vezbanje/zidno-vratilo.html",
     category: "vratila",
@@ -94,7 +93,7 @@ const menu = [
     `,
   },
   {
-  id: 10,
+  id: 9,
     title: "Zidni razboj za propadanje i trbušnjake",
     link: "../sprave-za-vezbanje/zidni-razboj.html",
     category: "vratila",
@@ -105,7 +104,7 @@ const menu = [
     `,
   },
   {
-  id: 11,
+  id: 10,
     title: "Sprave za zgibove, trbušnjake i propadanja",
     link: "../sprave-za-vezbanje/zidni-multi-set.html",
     category: "vratila",
@@ -115,7 +114,7 @@ const menu = [
     `,
   },
   {
-    id: 12,
+    id: 11,
     title: "Hiperekstenzija",
     link: "../sprave-za-vezbanje/hiperextenzija.html",
     category: "klupe",
@@ -125,7 +124,7 @@ const menu = [
     `,
   },
   {
-    id: 14,
+    id: 12,
     title: "Vratilo samostojeće (POWER TOWER)",
     link: "../sprave-za-vezbanje/multi-funkcionalna-sprava.html",
     category: "gladijatori",
@@ -135,7 +134,7 @@ const menu = [
     `,
   },
   {
-    id: 15,
+    id: 13,
     title: "šipke i bučice sa štipaljkama fi30mm",
     link: "../sprave-za-vezbanje/sipke-bucice-stipaljke-fi30mm.html",
     category: "sipke",
@@ -145,7 +144,7 @@ const menu = [
     2. Bučice fi30mm sa štipaljkom`,
   },
   {
-    id: 16,
+    id: 14,
     title: "Profesionalni Half rack",
     link: "../sprave-za-vezbanje/profesionalni-half-rack.html",
     category: "gladijatori",
@@ -158,7 +157,7 @@ const menu = [
     `,
   },
   {
-    id: 17,
+    id: 15,
     title: "Bench klupa",
     link: "../sprave-za-vezbanje/bench-klupa.html",
     category: "klupe",
@@ -167,7 +166,7 @@ const menu = [
     desc: `Univerzalna bench klupa sa stalkom za šipku, mogućnost dodavanja skot nastavka i nastavaka za prednju i zadnju ložu<br><br> Po želji boja metala/kože.`,
   },
   {
-    id: 18,
+    id: 16,
     title: "Skot klupa",
     link: "../sprave-za-vezbanje/skot-klupa.html",
     category: "klupe",
@@ -177,7 +176,7 @@ const menu = [
     `,
   },
   {
-    id: 19,
+    id: 17,
     title: "3D zglob fi30 i fi50",
     link: "../sprave-za-vezbanje/3D-zglob.html",
     category: "sprave",
@@ -186,7 +185,7 @@ const menu = [
     desc: `3D zglob za šipke`,
   },
   {
-    id: 20,
+    id: 18,
     title: "Stalak za tegove i šipke fi30 i fi50",
     link: "../sprave-za-vezbanje/stalak-za-tegove.html",
     category: "stalci",
@@ -195,7 +194,7 @@ const menu = [
     desc: `Stalak za tegove i šipke`,
   },
   {
-    id: 21,
+    id: 19,
     title: "Dodatak za sklekove",
     link: "../sprave-za-vezbanje/dodatak-za-sklekove.html",
     category: "sprave",
@@ -204,7 +203,7 @@ const menu = [
     desc: `Dodatak za sklekove ' sklekeri`,
   },
   {
-    id: 22,
+    id: 20,
     title: "šipke i bučice sa navojem fi30mm",
     link: "../sprave-za-vezbanje/sipke-bucice-sa-navojem-fi30.html",
     category: "sipke",
@@ -213,7 +212,7 @@ const menu = [
     desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
   },
   {
-    id: 24,
+    id: 21,
     title: "tegovi fi30 i fi50",
     link: "../sprave-za-vezbanje/tegovi.html",
     category: "tegovi",
@@ -222,7 +221,7 @@ const menu = [
     desc: `Tegovi fi30mm i fi50mm: 1,25kg; 2,5kg; 5kg; 10kg; 15kg; 20kg`,
   },
   {
-    id: 25,
+    id: 22,
     title: "Stalak za bučice",
     link: "../sprave-za-vezbanje/stalak-za-bucice.html",
     category: "stalci",
@@ -231,7 +230,7 @@ const menu = [
     desc: `Stalak za bučice - ČVRSTE KONSTRUKCIJE, MODERAN DIZAJN`,
   },
   {
-    id: 26,
+    id: 23,
     title: "Stalak za hex bučice",
     link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
     category: "stalci",
@@ -240,7 +239,7 @@ const menu = [
     desc: `Stalak za hex bučice, 1-10kg`,
   },
   {
-    id: 27,
+    id: 24,
     title: "zidni NOSAČI ZA BOKS DŽAK",
     link: "../sprave-za-vezbanje/zidni-nosac-za-boks-dzak.html",
     category: "box",
@@ -250,7 +249,7 @@ const menu = [
     Uz držač  dobijate tiple i šrafove.`,
   },
   {
-    id: 28,
+    id: 25,
     title: "Dodaci sprava",
     link: "../sprave-za-vezbanje/dodatak-za-sprave.html",
     category: "sprave",
@@ -270,7 +269,7 @@ const menu = [
     Nastavak za prednju i zadnju ložu`,
   },
   {
-    id: 29,
+    id: 26,
     title: "bučice",
     link: "../sprave-za-vezbanje/bucice.html",
     category: "sipke",
@@ -279,7 +278,7 @@ const menu = [
     desc: `Bučice - brzomontirajuće sa tegovima`,
   },
   {
-    id: 30,
+    id: 27,
     title: "Rusko zvono - girje",
     link: "../sprave-za-vezbanje/rusko-zvono.html",
     category: "tegovi",
@@ -288,7 +287,7 @@ const menu = [
     desc: `Rusko Zvono, girje, kettlebell od: 4kg, 8kg, 12kg, 16kg, 20kg, 24kg`,
   },
   {
-    id: 31,
+    id: 28,
     title: "Bumper tegovi",
     link: "../sprave-za-vezbanje/bumper-tegovi.html",
     category: "tegovi",
@@ -298,7 +297,7 @@ const menu = [
     Ploče su od:<br><br> 5kg, 10kg, 15kg, 20kg`,
   },
   {
-    id: 32,
+    id: 29,
     title: "hex bučice",
     link: "../sprave-za-vezbanje/hex-bucice.html",
     category: "sipke",
@@ -307,7 +306,7 @@ const menu = [
     desc: `Bučice od 1-10kg`,
   },
   {
-    id: 33,
+    id: 30,
     title: "Ravna klupa",
     link: "../sprave-za-vezbanje/ravna-klupa.html",
     category: "klupe",
@@ -316,7 +315,7 @@ const menu = [
     desc: `Ravna klupa veoma jaka i stabilna, izradjena od profila 60x40, duzine 110cm. Po želji boja metala/kože.`,
   },
   {
-    id: 34,
+    id: 31,
     title: "Profesionalna Univerzalna Klupa",
     link: "../sprave-za-vezbanje/profesionalna-univerzalna-klupa.html",
     category: "klupe",
@@ -325,7 +324,7 @@ const menu = [
     desc: `Profesionalna univerzalna bench klupa izrađena od profila 80x40 (3mm debljina zida), veoma jaka, stabilna i masivna, klupa ima 5 položaja (  ravni, 3 kosa, i pod 90 stepeni ), sedište podesivo u 3 položaja<br><br> Po želji boja metala/kože.`,
   },
   {
-    id: 35,
+    id: 32,
     title: "Hiperekstenzija (sklopiva)",
     link: "../sprave-za-vezbanje/hiperextenzija-sklopiva.html",
     category: "klupe",
@@ -337,7 +336,7 @@ const menu = [
     `,
   },
   {
-    id: 36,
+    id: 33,
     title: "Klupa za trbušnjake (sklopiva)",
     link: "../sprave-za-vezbanje/klupa-za-trbusnjake-sklopiva.html",
     category: "klupe",
@@ -348,7 +347,7 @@ const menu = [
     Podešava se nagib, izvlači se ili uvlači da bi bila viša ili niža u zavisnosti kakvo opterećenje želite da vam bude prilikom vežbanja.<br><br> Po želji boja metala/kože.`,
   },
   {
-    id: 37,
+    id: 34,
     title: "Profesionalni Leg Press i Hek Mašina",
     link: "../sprave-za-vezbanje/leg-press.html",
     category: "sprave",
@@ -359,7 +358,7 @@ const menu = [
     `,
   },
   {
-    id: 38,
+    id: 35,
     title: "Trap bar, hex bar šipka (pokretne ručke)",
     link: "../sprave-za-vezbanje/hex-trap-pokretne-rucke.html",
     category: "sipke",
@@ -368,7 +367,7 @@ const menu = [
     desc: `Trap bar, hex bar šipka`,
   },
   {
-    id: 39,
+    id: 36,
     title: "Razboj za propadanje",
     link: "../sprave-za-vezbanje/razboj-za-propadanje.html",
     category: "sprave",
@@ -379,7 +378,7 @@ const menu = [
     `,
   },
   {
-    id: 40,
+    id: 37,
     title: "Gumeni pod za teretane",
     link: "../sprave-za-vezbanje/gumeni-pod-za-teretanu.html",
     category: "sprave",
@@ -390,7 +389,7 @@ const menu = [
     `,
   },
   {
-    id: 41,
+    id: 38,
     title: "Trap bar, hex bar šipka",
     link: "../sprave-za-vezbanje/hex-trap-sipka.html",
     category: "sipke",
@@ -399,7 +398,7 @@ const menu = [
     desc: `Trap bar, hex bar šipka fi30 i fi50`,
   },
   {
-    id: 42,
+    id: 39,
     title: "Univerzalna sprava",
     link: "../sprave-za-vezbanje/univerzalna-sprava.html",
     category: "gladijatori",
@@ -409,7 +408,7 @@ const menu = [
     `,
   },
   {
-    id: 43,
+    id: 40,
     title: "Stalak za tegove i razboj za propadanje",
     link: "../sprave-za-vezbanje/stalak-razboj.html",
     category: "stalci",
@@ -418,7 +417,7 @@ const menu = [
     desc: `Stalak za tegove, razboj za propadanja izrađen od profila 40x40, veoma jak i stabilan, sa 5 položaja visine.`,
   },
   {
-    id: 44,
+    id: 41,
       title: "Zidno vratilo EXTREME",
       link: "../sprave-za-vezbanje/vratilo-extreme.html",
       category: "vratila",
@@ -428,7 +427,7 @@ const menu = [
       `,
     },
     {
-      id: 45,
+      id: 42,
         title: "Vratilo 45° za ugao sobe",
         link: "../sprave-za-vezbanje/vratilo-za-ugao.html",
         category: "vratila",
@@ -438,7 +437,7 @@ const menu = [
         `,
       },
       {
-        id: 46,
+        id: 43,
         title: "Kosa Klupa za trbušnjake",
         link: "../sprave-za-vezbanje/kosa-klupa-za-trbusnjake.html",
         category: "klupe",
@@ -449,7 +448,7 @@ const menu = [
         Mogućnost podešavanja razmaka između gornjih i donjih sunđera za noge, to jest podešavanje visine između sunđera, ima 4 nivoa podešavanja.`,
       },
       {
-        id: 46,
+        id: 44,
           title: "Vratilo za apsolutne zgibove(ruski zgibovi)",
           link: "../sprave-za-vezbanje/samostojece-vratilo.html",
           category: "vratila",
@@ -461,7 +460,7 @@ const menu = [
           `,
         },
         {
-          id: 47,
+          id: 45,
           title: "Lat mašina",
           link: "../sprave-za-vezbanje/lat-masina.html",
           category: "sprave",
@@ -471,7 +470,7 @@ const menu = [
           `,
         },
         {
-          id: 48,
+          id: 46,
             title: "Vratilo za plafon EXTREME",
             link: "../sprave-za-vezbanje/vratilo-za-plafon-extreme.html",
             category: "vratila",
@@ -481,7 +480,7 @@ const menu = [
             `,
           },
           {
-            id: 49,
+            id: 47,
               title: "Vratilo za plafon",
               link: "../sprave-za-vezbanje/vratilo-za-plafon.html",
               category: "vratila",
@@ -492,7 +491,7 @@ const menu = [
               `,
             },
             {
-              id: 50,
+              id: 48,
               title: "Stalak iz dva dela",
               link: "../sprave-za-vezbanje/stalak-iz-dva-dela.html",
               category: "stalci",
@@ -503,7 +502,7 @@ const menu = [
               Jako stabilni i čvrsti.`,
             },
             {
-              id: 51,
+              id: 49,
               title: "Stalak za čučanj, bench, ramena",
               link: "../sprave-za-vezbanje/stalak-za-cucanj.html",
               category: "stalci",
@@ -514,7 +513,7 @@ const menu = [
               Ima 5 nivoa za podesavanje visine.`,
             },
             {
-              id: 52,
+              id: 50,
               title: "Profesionalni stalak",
               link: "../sprave-za-vezbanje/profesionalni-stalak.html",
               category: "stalci",
@@ -525,7 +524,7 @@ const menu = [
               Ima sa strane 4  nosaca za odlaganje ploca. `,
             },
             {
-              id: 53,
+              id: 51,
               title: "Stalak za hex bučice (uspravni)",
               link: "../sprave-za-vezbanje/stalak-hex-bucice-uspravni.html",
               category: "stalci",
@@ -534,7 +533,7 @@ const menu = [
               desc: `Stalak za hex bučice (uspravni), 1-10kg`,
             },
             {
-              id: 54,
+              id: 52,
               title: "Vratilo samostojeće (POWER TOWER EXTREME)",
               link: "../sprave-za-vezbanje/vratilo-samostojece-extreme.html",
               category: "gladijatori",
@@ -545,7 +544,7 @@ const menu = [
               `,
             },
             {
-              id: 55,
+              id: 53,
               title: "Plafonski NOSAČI ZA BOKS DŽAK",
               link: "../sprave-za-vezbanje/plafonski-nosac-za-boks-dzak.html",
               category: "box",
@@ -555,7 +554,7 @@ const menu = [
               Uz držač dobijate tiple i srafove. .`,
             },
             {
-              id: 56,
+              id: 54,
               title: "Ručka za vežbanje podlaktice i nadlaktice",
               link: "../sprave-za-vezbanje/rucka-za-podlakticu-nadlakticu.html",
               category: "sprave",
@@ -565,7 +564,7 @@ const menu = [
               Set ručka, kanap, i mesto za tegove.`,
             },
             {
-              id: 57,
+              id: 55,
               title: "Zidni Razboj za propadanje",
               link: "../sprave-za-vezbanje/zidni-razboj-za-propadanje.html",
               category: "vratila",
@@ -576,7 +575,7 @@ const menu = [
               Uz razboj dobijate šrafove i tiple.`,
             },
             {
-              id: 58,
+              id: 56,
               title: "Vratilo, razboj i trbušnjaci (3u1)",
               link: "../sprave-za-vezbanje/vratilo-razboj-trbusnjaci.html",
               category: "vratila",
@@ -588,7 +587,7 @@ const menu = [
               Uz Vratilo dobijate i kuke za tiplovanje i šrafljenje kao i tiple i šrafove.  `,
             },
             {
-              id: 59,
+              id: 57,
               title: "TopRoller - ručka za vežbe obaranja ruku",
               link: "../sprave-za-vezbanje/top-roller.html",
               category: "sprave",
@@ -600,7 +599,7 @@ const menu = [
               Uz ručku dobijate i sajlu, zakačaljke i nastavak na koji stavljate tegove.`,
             },
             {
-              id: 60,
+              id: 58,
               title: "STOJEĆI SKOT (45 i 90)",
               link: "../sprave-za-vezbanje/stojeci-skot.html",
               category: "sprave",
@@ -612,7 +611,7 @@ const menu = [
               Sprava je profesionalno odrađena da svim vežbacima odgovara.`,
             },
             {
-              id: 61,
+              id: 59,
               title: "bench klupa za sve",
               link: "../sprave-za-vezbanje/bench-klupa-za-sve.html",
               category: "klupe",
@@ -624,7 +623,7 @@ const menu = [
               Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40`,
             },
             {
-              id: 62,
+              id: 60,
               title: "Half Rack 2",
               link: "../sprave-za-vezbanje/half-rack-2.html",
               category: "gladijatori",
@@ -634,7 +633,7 @@ const menu = [
               Half Rack 2. Po želji boja konstrukcije, izrađen od profila 60x40x3mm i 50x50x3mm`,
             },
             {
-              id: 63,
+              id: 61,
               title: "šipka za triceps",
               link: "../sprave-za-vezbanje/sipka-za-triceps.html",
               category: "sipke",
