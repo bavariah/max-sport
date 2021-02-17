@@ -13,16 +13,15 @@ if('serviceWorker' in navigator) {
 
 
 const menu = [
+  
   {
     id: 1,
-    title: "Leg curl - bench klupa",
-    link: "../sprave-za-vezbanje/leg-curl-bench-klupa.html",
-    category: "sprave",
-    price: 150,
-    img: "../props/sprave/legcurl5.jpg",
-    desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
-    2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/kože.
-    `,
+    title: "set-komplet",
+    link: "../sprave-za-vezbanje/set-komplet.html",
+    category: "komplet",
+    price: 123,
+    img: "../props/komplet/komplet1.jpg",
+    desc: `Komplet sprava`,
   },
   {
     id: 2,
@@ -66,15 +65,17 @@ const menu = [
   //   4. Bucice sa navojima 35cm duzine - 2000din/kom
   //   5. Bucice sa navojima 38cm duzine - 2200din/kom`,
   // },
-   {
-     id: 5,
-     title: "set-komplet",
-     link: "../sprave-za-vezbanje/set-komplet.html",
-     category: "komplet",
-     price: 123,
-     img: "../props/komplet/komplet1.jpg",
-     desc: `Komplet sprava`,
-   },
+  {
+    id: 5,
+    title: "Leg curl - bench klupa",
+    link: "../sprave-za-vezbanje/leg-curl-bench-klupa.html",
+    category: "sprave",
+    price: 150,
+    img: "../props/sprave/legcurl5.jpg",
+    desc: `Opcije:<br> 1. Moze se skinuti nastavak za noge i ubaciti skot nastavak. <br>
+    2. Bez nastavaka je kao univerzalna bench klupa.<br><br> Po želji boja metala/kože.
+    `,
+  },
   {
     id: 6,
     title: "Bokserski džakovi",
