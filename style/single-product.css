@@ -680,6 +680,7 @@ footer {
   }
   .social {
     top: 55%;
+    font-size: 1.8rem;
   }
   .next-page-img {
     width: 200px;
@@ -732,7 +733,7 @@ footer {
     letter-spacing: 0.3rem;
   }
   .social {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     left: 2px;
   }
 }
