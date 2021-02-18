@@ -172,7 +172,7 @@ const menu = [
     desc: `
     Bench klupa ima 6 položaja nagiba.
     Stalak za šipku je zavaren za bench klupu koji ima 5 položaja visine, može da sve vežbe rade od kontra kosog bencha, ravnog, kosog, i ramena. 
-    Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40`,
+    Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40<br><br> Po želji boja metala/kože.`,
   },
   {
     id: 17,
@@ -480,7 +480,7 @@ const menu = [
             category: "vratila",
             price: 150,
             img: "../props/zidni/vr1.jpg",
-            desc: `Vratilo za plafon EXTREME, na njemu se moze raditi 5 vrsti zgibovi (5 hvatova), siroki hvat 110cm, rucice su blago povijene na dole.  Uz vratilo dobijate tiplove i šrafove.
+            desc: `Vratilo za plafon EXTREME, na njemu se moze raditi 5 vrsti zgibovi (5 hvatova), široki hvat 110cm, rucice su blago povijene na dole.  Uz vratilo dobijate tiplove i šrafove.
             `,
           },
           {
@@ -502,7 +502,7 @@ const menu = [
               price: 123,
               img: "../props/stalci/dd1.jpg",
               desc: `Stalak iz dva dela(čučanj, ramena , bench, propadanje, nosači)
-              Stalci iz dva nezavisna dela koja se pomeraju i steluje se i širina i visina. 
+              Stalci iz dva nezavisna dela koja se pomeraju i šteluje se i širina i visina. 
               Jako stabilni i čvrsti.`,
             },
             {
@@ -553,7 +553,7 @@ const menu = [
               price: 123,
               img: "../props/dzak_dodatak/dzak3.jpg",
               desc: `Plafonski nosac za boks dzak.
-              Uz držač dobijate tiple i srafove. .`,
+              Uz držač dobijate tiple i šrafove. .`,
             },
             {
               id: 54,
@@ -609,8 +609,8 @@ const menu = [
               img: "../props/skot_klupa/s1.jpg",
               desc: `Stojeći skot veoma čvrst, stabilan i masivan, rasklopiv radi lakšeg transporta. 
               Podešavanje nivoa visine naslona skota radi prilagođavanja visini vežbaca, 
-              Podešavanje visine nosača tegova nezavisno jednih od drugih i visine naslona skota, 
-              Sprava je profesionalno odrađena da svim vežbacima odgovara.`,
+              Podešavanje visine nosača tegova nezavisno jednih od drugih i visine naslona skota. 
+              <br><br> Po želji boja metala/kože.`,
             },
             {
               id: 59,
