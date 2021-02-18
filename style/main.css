@@ -432,7 +432,7 @@ aside a {
     font-size: 1.3em;
   }
   .social {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
   aside {
     position: absolute;
@@ -442,6 +442,12 @@ aside a {
   }
   aside a {
     font-size: 0.6rem;
+  }
+}
+@media (max-width: 376px) {
+  .social {
+    bottom: 30px;
+    font-size: 1.9rem;
   }
 }
 @media (max-width: 330px) {
