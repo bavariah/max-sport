@@ -299,10 +299,24 @@ aside a {
 }
 .mapa img {
   height: 450px;
+  animation: showone 2s ease;
+}
+@keyframes showone {
+  from {
+    opacity: 0.5;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.mapa img:hover {
   -webkit-box-shadow: 0 0 10px 2px #003cff;
   -moz-box-shadow: 0 0 10px 2px #003cff;
   box-shadow: 0 0 10px 2px #003cff;
 }
+
 .mapa .mapa-text {
   font-size: 1.4rem;
   padding: 20px;
@@ -536,6 +550,16 @@ aside a {
   }
   .mapa img {
     height: 200px;
+  }
+  @keyframes showone {
+    from {
+      opacity: 0.5;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   @keyframes headsUp {
     from {
