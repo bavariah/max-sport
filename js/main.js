@@ -79,8 +79,9 @@ const menu = [
     category: "sipke",
     price: 144,
     img: "../props/sipke/olimp_sipka_3.jpg",
-    desc: `1. Olimpijska šipka fi50mm 220cm dužina<br>
-    2. Bučice fi50mm sa navojem`,
+    desc: `Olimpijska šipka fi50mm 220cm dužina<br>
+    Olimpijska EZ šipka fi50mm<br>
+    Bučice fi50mm`,
   },
   {
   id: 8,
@@ -212,7 +213,7 @@ const menu = [
     category: "sipke",
     price: 144,
     img: "../props/sipke/bucice3.jpg",
-    desc: `Šipke fi30 sa navojem 183cm i 214cm, i Bučice fi30 sa navojem 35cm i 38cm.`,
+    desc: `Šipke fi30 sa navojem 183cm i 214cm<br> Bučice fi30 sa navojem 35cm i 38cm<br>EZ šipke fi30mm sa navojem`,
   },
   {
     id: 21,
@@ -664,6 +665,28 @@ const menu = [
               img: "../props/sprave/lat1.jpg",
               desc: `Lat mašina veoma jaka, masivna, stabilna, funkcionalna, izrađena od profila 60x40 i 40x40, ima i donji kotur za suvo veslanje i ostale vežbe, uz mašinu se dobija duža i kraca šipka obložene sunđerastim ručkama, noge od mašine se skidaju radi lakšeg transporta i unošenja u prostoriju. Mogućnost izrade i ostalih nastavaka za lat mašinu..
               `,
+            },
+            {
+              id: 64,
+              title: "Razboj za propadanje i trbušnjake (SKLOPIVE RUCKE)",
+              link: "../sprave-za-vezbanje/razboj-sklopivi.html",
+              category: "vratila",
+              price: 123,
+              img: "../props/zidni/rs1.jpg",
+              desc: `Razboj za propadanja i stomačne mišiće, širina hvata je 55cm, ručice su obložene sunđerastom ručkom. 
+              Mogućnost sklapanja ručki ka gore radi više prostora u sobi kada ne trenirate, sklapaju se kopletne ručke a i ručice koje držite kada radite stomačne mišiće. 
+              Uz vratilo dobijate tiple i šrafove`,
+            },
+            {
+              id: 65,
+              title: "Stalak za čučanj, ramena, bench..",
+              link: "../sprave-za-vezbanje/stalak-poluprofesionalni.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/stalci/ss1.jpg",
+              desc: `Poluprofesionalni stalak sa kojim sve vežbe možete raditi  i sa ovom univerzalnom klupom,  
+              Stalak je izrađen od profila 60x40, veoma je jak, masivan i stabilan.
+              Stalak je na rasklapanje zbog transporta.`,
             },
 ];
 
