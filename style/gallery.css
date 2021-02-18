@@ -700,6 +700,10 @@ aside a {
     content: "";
     color: #fff;
   }
+  .social {
+    font-size: 1.8rem;
+    left: 2px;
+  }
 }
 @media (max-width: 330px) {
   #topBtn {
@@ -743,7 +747,7 @@ aside a {
     grid-row-gap: 2rem;
   }
   .social {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     left: 2px;
   }
 }
