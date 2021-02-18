@@ -232,14 +232,6 @@ aside a {
   width: 90vw;
   animation: headsUp 0.8s ease;
 }
-@keyframes headsUp {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .fb-rate {
   display: flex;
   flex-direction: column;
