@@ -115,13 +115,12 @@ const menu = [
   },
   {
     id: 11,
-    title: "Hiperekstenzija",
-    link: "../sprave-za-vezbanje/hiperextenzija.html",
+    title: "Profesionalna Univerzalna Klupa",
+    link: "../sprave-za-vezbanje/profesionalna-univerzalna-klupa.html",
     category: "klupe",
-    price: 150,
-    img: "../props/extenzija/ex2.jpg",
-    desc: `Sprava za vežbanje donjeg dela leđa ( hiperekstenzija ) izradjena od profila 60x40 i 40x40, jaka i stabilna, ima podešavanje po visini vežbovnog dela kao i podešavanje po visini dela za noge.  <br><br> Po želji boja metala/kože.
-    `,
+    price: 122,
+    img: "../props/klupe/pro4.jpg",
+    desc: `Profesionalna univerzalna bench klupa izrađena od profila 80x40 (3mm debljina zida), veoma jaka, stabilna i masivna, klupa ima 5 položaja (  ravni, 3 kosa, i pod 90 stepeni ), sedište podesivo u 3 položaja<br><br> Po želji boja metala/kože.`,
   },
   {
     id: 12,
@@ -145,15 +144,13 @@ const menu = [
   },
   {
     id: 14,
-    title: "Profesionalni Half rack",
-    link: "../sprave-za-vezbanje/profesionalni-half-rack.html",
+    title: "Vratilo samostojeće (POWER TOWER EXTREME)",
+    link: "../sprave-za-vezbanje/vratilo-samostojece-extreme.html",
     category: "gladijatori",
     price: 150,
-    img: "../props/multi_extreme/multi5.jpg",
-    desc: `Profesionalni Half rack za kucne i komercijalne teretane.                                                                                
-    Izradjen od profila 50x50x3mm, I 60x40x3mm, veoma cvrst, masivan i stabilan, flahovi debljine 5mm.
-    Dobijaju se nastavci za sipku, duzi nastavci za sipku ( mrtvo dizanje ili sigurnosni nosaci ) i nastavci za propadanje.  
-    Nastavci su brzomontirajuci, i uz njih dobijate i srafove.
+    img: "../props/multi_plain/ext2.jpg",
+    desc: `Vratilo samostojece  (Power Tower EXTREME) 
+    Izradjeno od profila 60x40, jaka, masivna i teska sprava, jako stabilna, i pre svega veoma funkcionalna, vratilo je EXTREME<br><br> Po želji boja metala/kože.
     `,
   },
   {
@@ -167,22 +164,26 @@ const menu = [
   },
   {
     id: 16,
-    title: "Skot klupa",
-    link: "../sprave-za-vezbanje/skot-klupa.html",
+    title: "bench klupa za sve",
+    link: "../sprave-za-vezbanje/bench-klupa-za-sve.html",
     category: "klupe",
-    price: 150,
-    img: "../props/skot_klupa/bicepsi2.jpg",
-    desc: `Skot klupa pod uglom od 45 stepeni, jaka i stabilna, skot ima 3 položaja visine, sedište 3 položaja. Po želji boja metala i eko kože..
-    `,
+    price: 123,
+    img: "../props/klupe/kk1.jpg",
+    desc: `
+    Bench klupa ima 6 položaja nagiba.
+    Stalak za šipku je zavaren za bench klupu koji ima 5 položaja visine, može da sve vežbe rade od kontra kosog bencha, ravnog, kosog, i ramena. 
+    Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40`,
   },
   {
     id: 17,
-    title: "3D zglob fi30 i fi50",
-    link: "../sprave-za-vezbanje/3D-zglob.html",
+    title: "Profesionalni Leg Press i Hek Mašina",
+    link: "../sprave-za-vezbanje/leg-press.html",
     category: "sprave",
-    price: 123,
-    img: "../props/drzac_za_sipku/drzac1.jpg",
-    desc: `3D zglob za šipke`,
+    price: 150,
+    img: "../props/sprave/leg2.jpg",
+    desc: `Dve sprave u jednoj (2u1), za kućne i komercijalne teretane. Mogućnost prilagođavanja sprave iz Leg pressa u Hek mašinu u dva poteza, 
+    Izradjen od debelozidnih cevi 3mm...<br><br> Po želji boja metala/kože.
+    `,
   },
   {
     id: 18,
@@ -195,12 +196,14 @@ const menu = [
   },
   {
     id: 19,
-    title: "Dodatak za sklekove",
-    link: "../sprave-za-vezbanje/dodatak-za-sklekove.html",
+    title: "Razboj za propadanje",
+    link: "../sprave-za-vezbanje/razboj-za-propadanje.html",
     category: "sprave",
-    price: 123,
-    img: "../props/sklekovi/sklek1.jpg",
-    desc: `Dodatak za sklekove ' sklekeri`,
+    price: 150,
+    img: "../props/sprave/r1.jpg",
+    desc: `Razboj za propadanje, veoma čvrst i stabilan. . . 
+    Ceo je od kutija 60x40, ima dole gumene navlake, ne kliza.
+    `,
   },
   {
     id: 20,
@@ -222,21 +225,25 @@ const menu = [
   },
   {
     id: 22,
-    title: "Stalak za bučice",
-    link: "../sprave-za-vezbanje/stalak-za-bucice.html",
+    title: "Profesionalni stalak",
+    link: "../sprave-za-vezbanje/profesionalni-stalak.html",
     category: "stalci",
     price: 123,
-    img: "../props/tegovi/polica4.jpg",
-    desc: `Stalak za bučice - ČVRSTE KONSTRUKCIJE, MODERAN DIZAJN`,
+    img: "../props/stalci/sr5.jpg",
+    desc: `Profesionalni stalak za ramena,čučanj,kosi bench,ravan bench
+    Veoma cvrst i stabilan stalak. 
+    Ima sa strane 4  nosaca za odlaganje ploca. `,
   },
   {
     id: 23,
-    title: "Stalak za hex bučice",
-    link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
+    title: "Stalak za čučanj, bench, ramena",
+    link: "../sprave-za-vezbanje/stalak-za-cucanj.html",
     category: "stalci",
     price: 123,
-    img: "../props/tegovi/drzac4.jpg",
-    desc: `Stalak za hex bučice, 1-10kg`,
+    img: "../props/stalci/st4.jpg",
+    desc: `Veoma cvrst i stabilan, izradjen od kutija 40x40
+    Na rasklapanje je zbog transporta.  
+    Ima 5 nivoa za podesavanje visine.`,
   },
   {
     id: 24,
@@ -316,12 +323,13 @@ const menu = [
   },
   {
     id: 31,
-    title: "Profesionalna Univerzalna Klupa",
-    link: "../sprave-za-vezbanje/profesionalna-univerzalna-klupa.html",
+    title: "Hiperekstenzija",
+    link: "../sprave-za-vezbanje/hiperextenzija.html",
     category: "klupe",
-    price: 122,
-    img: "../props/klupe/pro4.jpg",
-    desc: `Profesionalna univerzalna bench klupa izrađena od profila 80x40 (3mm debljina zida), veoma jaka, stabilna i masivna, klupa ima 5 položaja (  ravni, 3 kosa, i pod 90 stepeni ), sedište podesivo u 3 položaja<br><br> Po želji boja metala/kože.`,
+    price: 150,
+    img: "../props/extenzija/ex2.jpg",
+    desc: `Sprava za vežbanje donjeg dela leđa ( hiperekstenzija ) izradjena od profila 60x40 i 40x40, jaka i stabilna, ima podešavanje po visini vežbovnog dela kao i podešavanje po visini dela za noge.  <br><br> Po želji boja metala/kože.
+    `,
   },
   {
     id: 32,
@@ -348,14 +356,12 @@ const menu = [
   },
   {
     id: 34,
-    title: "Profesionalni Leg Press i Hek Mašina",
-    link: "../sprave-za-vezbanje/leg-press.html",
+    title: "3D zglob fi30 i fi50",
+    link: "../sprave-za-vezbanje/3D-zglob.html",
     category: "sprave",
-    price: 150,
-    img: "../props/sprave/leg2.jpg",
-    desc: `Dve sprave u jednoj (2u1), za kućne i komercijalne teretane. Mogućnost prilagođavanja sprave iz Leg pressa u Hek mašinu u dva poteza, 
-    Izradjen od debelozidnih cevi 3mm...<br><br> Po želji boja metala/kože.
-    `,
+    price: 123,
+    img: "../props/drzac_za_sipku/drzac1.jpg",
+    desc: `3D zglob za šipke`,
   },
   {
     id: 35,
@@ -368,14 +374,12 @@ const menu = [
   },
   {
     id: 36,
-    title: "Razboj za propadanje",
-    link: "../sprave-za-vezbanje/razboj-za-propadanje.html",
+    title: "Dodatak za sklekove",
+    link: "../sprave-za-vezbanje/dodatak-za-sklekove.html",
     category: "sprave",
-    price: 150,
-    img: "../props/sprave/r1.jpg",
-    desc: `Razboj za propadanje, veoma čvrst i stabilan. . . 
-    Ceo je od kutija 60x40, ima dole gumene navlake, ne kliza.
-    `,
+    price: 123,
+    img: "../props/sklekovi/sklek1.jpg",
+    desc: `Dodatak za sklekove ' sklekeri`,
   },
   {
     id: 37,
@@ -461,11 +465,11 @@ const menu = [
         },
         {
           id: 45,
-          title: "Lat mašina",
-          link: "../sprave-za-vezbanje/lat-masina.html",
-          category: "sprave",
+          title: "Power Tower Pro",
+          link: "../sprave-za-vezbanje/power-tower-pro.html",
+          category: "gladijatori",
           price: 150,
-          img: "../props/sprave/lat1.jpg",
+          img: "../props/multi_plain/multi11.jpg",
           desc: `Lat mašina veoma jaka, masivna, stabilna, funkcionalna, izrađena od profila 60x40 i 40x40, ima i donji kotur za suvo veslanje i ostale vežbe, uz mašinu se dobija duža i kraca šipka obložene sunđerastim ručkama, noge od mašine se skidaju radi lakšeg transporta i unošenja u prostoriju. Mogućnost izrade i ostalih nastavaka za lat mašinu..
           `,
         },
@@ -502,26 +506,22 @@ const menu = [
               Jako stabilni i čvrsti.`,
             },
             {
-              id: 49,
-              title: "Stalak za čučanj, bench, ramena",
-              link: "../sprave-za-vezbanje/stalak-za-cucanj.html",
+              id: 22,
+              title: "Stalak za bučice",
+              link: "../sprave-za-vezbanje/stalak-za-bucice.html",
               category: "stalci",
               price: 123,
-              img: "../props/stalci/st4.jpg",
-              desc: `Veoma cvrst i stabilan, izradjen od kutija 40x40
-              Na rasklapanje je zbog transporta.  
-              Ima 5 nivoa za podesavanje visine.`,
+              img: "../props/tegovi/polica4.jpg",
+              desc: `Stalak za bučice - ČVRSTE KONSTRUKCIJE, MODERAN DIZAJN`,
             },
             {
               id: 50,
-              title: "Profesionalni stalak",
-              link: "../sprave-za-vezbanje/profesionalni-stalak.html",
+              title: "Stalak za hex bučice",
+              link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
               category: "stalci",
               price: 123,
-              img: "../props/stalci/sr5.jpg",
-              desc: `Profesionalni stalak za ramena,čučanj,kosi bench,ravan bench
-              Veoma cvrst i stabilan stalak. 
-              Ima sa strane 4  nosaca za odlaganje ploca. `,
+              img: "../props/tegovi/drzac4.jpg",
+              desc: `Stalak za hex bučice, 1-10kg`,
             },
             {
               id: 51,
@@ -534,13 +534,15 @@ const menu = [
             },
             {
               id: 52,
-              title: "Vratilo samostojeće (POWER TOWER EXTREME)",
-              link: "../sprave-za-vezbanje/vratilo-samostojece-extreme.html",
+              title: "Univerzalna sprava EXTREME",
+              link: "../sprave-za-vezbanje/univerzalna-sprava-extreme.html",
               category: "gladijatori",
               price: 150,
-              img: "../props/multi_plain/ext2.jpg",
-              desc: `Vratilo samostojece  (Power Tower EXTREME) 
-              Izradjeno od profila 60x40, jaka, masivna i teska sprava, jako stabilna, i pre svega veoma funkcionalna, vratilo je EXTREME<br><br> Po želji boja metala/kože.
+              img: "../props/multi_extreme/u1.jpg",
+              desc: `Univerzalna sprava za zgibove EXTREME.
+              Za propadanje, bench, ramena, čučanj, mrtvo dizanje. Veoma je jaka, masivna, stabilna i funkcionalna, izrađena od profila 60x40.  
+              Uski hvat je 55cm a široki 110cm. 
+              5 nivoa držača za tegove + nivo za mrtvo dizanje.
               `,
             },
             {
@@ -612,18 +614,29 @@ const menu = [
             },
             {
               id: 59,
-              title: "bench klupa za sve",
-              link: "../sprave-za-vezbanje/bench-klupa-za-sve.html",
+              title: "Skot klupa",
+              link: "../sprave-za-vezbanje/skot-klupa.html",
               category: "klupe",
-              price: 123,
-              img: "../props/klupe/kk1.jpg",
-              desc: `
-              Bench klupa ima 6 položaja nagiba.
-              Stalak za šipku je zavaren za bench klupu koji ima 5 položaja visine, može da sve vežbe rade od kontra kosog bencha, ravnog, kosog, i ramena. 
-              Bench klupa  je veoma jaka, stabilna, masivna i funkcionalna, izrađena od profila 60x40`,
+              price: 150,
+              img: "../props/skot_klupa/bicepsi2.jpg",
+              desc: `Skot klupa pod uglom od 45 stepeni, jaka i stabilna, skot ima 3 položaja visine, sedište 3 položaja. Po želji boja metala i eko kože..
+              `,
             },
             {
               id: 60,
+              title: "Profesionalni Half rack",
+              link: "../sprave-za-vezbanje/profesionalni-half-rack.html",
+              category: "gladijatori",
+              price: 150,
+              img: "../props/multi_extreme/multi5.jpg",
+              desc: `Profesionalni Half rack za kucne i komercijalne teretane.                                                                                
+              Izradjen od profila 50x50x3mm, I 60x40x3mm, veoma cvrst, masivan i stabilan, flahovi debljine 5mm.
+              Dobijaju se nastavci za sipku, duzi nastavci za sipku ( mrtvo dizanje ili sigurnosni nosaci ) i nastavci za propadanje.  
+              Nastavci su brzomontirajuci, i uz njih dobijate i srafove.
+              `,
+            },
+            {
+              id: 61,
               title: "Half Rack 2",
               link: "../sprave-za-vezbanje/half-rack-2.html",
               category: "gladijatori",
@@ -633,7 +646,7 @@ const menu = [
               Half Rack 2. Po želji boja konstrukcije, izrađen od profila 60x40x3mm i 50x50x3mm`,
             },
             {
-              id: 61,
+              id: 62,
               title: "šipka za triceps",
               link: "../sprave-za-vezbanje/sipka-za-triceps.html",
               category: "sipke",
@@ -641,6 +654,16 @@ const menu = [
               img: "../props/sipke/t1.jpg",
               desc: `
               šipka za triceps`,
+            },
+            {
+              id: 63,
+              title: "Lat mašina",
+              link: "../sprave-za-vezbanje/lat-masina.html",
+              category: "gladijatori",
+              price: 150,
+              img: "../props/sprave/lat1.jpg",
+              desc: `Lat mašina veoma jaka, masivna, stabilna, funkcionalna, izrađena od profila 60x40 i 40x40, ima i donji kotur za suvo veslanje i ostale vežbe, uz mašinu se dobija duža i kraca šipka obložene sunđerastim ručkama, noge od mašine se skidaju radi lakšeg transporta i unošenja u prostoriju. Mogućnost izrade i ostalih nastavaka za lat mašinu..
+              `,
             },
 ];
 
