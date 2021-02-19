@@ -222,7 +222,7 @@ const menu = [
     category: "tegovi",
     price: 111,
     img: "../props/tegovi/t2.jpg",
-    desc: `Tegovi fi30mm i fi50mm: 1,25kg; 2,5kg; 5kg; 10kg; 15kg; 20kg`,
+    desc: `Tegovi fi30mm i fi50mm: 0,5kg; 1,25kg; 2,5kg; 5kg; 10kg; 15kg; 20kg`,
   },
   {
     id: 22,
