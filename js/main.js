@@ -78,7 +78,7 @@ const menu = [
     link: "../sprave-za-vezbanje/sipke-bucice-fi50mm.html",
     category: "sipke",
     price: 144,
-    img: "../props/sipke/olimp_sipka_3.jpg",
+    img: "../props/sipke/olimp_sipka_4.jpg",
     desc: `Olimpijska šipka fi50mm 220cm dužina<br>
     Olimpijska EZ šipka fi50mm<br>
     Bučice fi50mm`,
@@ -188,13 +188,16 @@ const menu = [
   },
   {
     id: 18,
-    title: "Stalak za tegove i šipke fi30 i fi50",
-    link: "../sprave-za-vezbanje/stalak-za-tegove.html",
+    title: "Stalak za čučanj, ramena, bench..",
+    link: "../sprave-za-vezbanje/stalak-poluprofesionalni.html",
     category: "stalci",
     price: 123,
-    img: "../props/stalak_za_tegove/stalak4.jpg",
-    desc: `Stalak za tegove i šipke`,
+    img: "../props/stalci/ss1.jpg",
+    desc: `Poluprofesionalni stalak sa kojim sve vežbe možete raditi  i sa ovom univerzalnom klupom,  
+    Stalak je izrađen od profila 60x40, veoma je jak, masivan i stabilan.
+    Stalak je na rasklapanje zbog transporta.`,
   },
+  
   {
     id: 19,
     title: "Razboj za propadanje",
@@ -507,7 +510,16 @@ const menu = [
               Jako stabilni i čvrsti.`,
             },
             {
-              id: 22,
+              id: 49,
+              title: "Stalak za tegove i šipke fi30 i fi50",
+              link: "../sprave-za-vezbanje/stalak-za-tegove.html",
+              category: "stalci",
+              price: 123,
+              img: "../props/stalak_za_tegove/stalak4.jpg",
+              desc: `Stalak za tegove i šipke`,
+            },
+            {
+              id: 50,
               title: "Stalak za bučice",
               link: "../sprave-za-vezbanje/stalak-za-bucice.html",
               category: "stalci",
@@ -515,15 +527,7 @@ const menu = [
               img: "../props/tegovi/polica4.jpg",
               desc: `Stalak za bučice - ČVRSTE KONSTRUKCIJE, MODERAN DIZAJN`,
             },
-            {
-              id: 50,
-              title: "Stalak za hex bučice",
-              link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
-              category: "stalci",
-              price: 123,
-              img: "../props/tegovi/drzac4.jpg",
-              desc: `Stalak za hex bučice, 1-10kg`,
-            },
+            
             {
               id: 51,
               title: "Stalak za hex bučice (uspravni)",
@@ -679,14 +683,12 @@ const menu = [
             },
             {
               id: 65,
-              title: "Stalak za čučanj, ramena, bench..",
-              link: "../sprave-za-vezbanje/stalak-poluprofesionalni.html",
+              title: "Stalak za hex bučice",
+              link: "../sprave-za-vezbanje/stalak-za-hex-bucice.html",
               category: "stalci",
               price: 123,
-              img: "../props/stalci/ss1.jpg",
-              desc: `Poluprofesionalni stalak sa kojim sve vežbe možete raditi  i sa ovom univerzalnom klupom,  
-              Stalak je izrađen od profila 60x40, veoma je jak, masivan i stabilan.
-              Stalak je na rasklapanje zbog transporta.`,
+              img: "../props/tegovi/drzac4.jpg",
+              desc: `Stalak za hex bučice, 1-10kg`,
             },
             {
               id: 66,
@@ -694,7 +696,7 @@ const menu = [
               link: "../sprave-za-vezbanje/sipke-za-farmerov-hod.html",
               category: "sipke",
               price: 123,
-              img: "../props/sipke/f4.jpg",
+              img: "../props/sipke/f1.jpg",
               desc: `šipke za farmerov hod`,
             },
             {
