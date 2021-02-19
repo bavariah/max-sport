@@ -230,7 +230,7 @@ aside a {
   border-radius: 10px;
   min-height: 700px;
   width: 90vw;
-  animation: headsUp 0.8s ease;
+  animation: headsUp 0.5s ease;
 }
 .fb-rate {
   display: flex;
@@ -291,7 +291,7 @@ aside a {
 }
 .mapa img {
   height: 450px;
-  animation: showone 2s ease;
+  animation: showone 0.5s ease;
 }
 @keyframes showone {
   from {

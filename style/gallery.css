@@ -160,7 +160,6 @@ body {
   transform: translateY(-50%);
   left: 10px;
   z-index: 10;
-  /* box-shadow: 0 0 10px 10px #003cff; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,7 +196,6 @@ body {
 .social li .phone:hover {
   color: rgb(187, 114, 19);
 }
-
 /* DROPDOWN ============= */
 
 .dropdown {

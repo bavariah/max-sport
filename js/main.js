@@ -688,6 +688,42 @@ const menu = [
               Stalak je izrađen od profila 60x40, veoma je jak, masivan i stabilan.
               Stalak je na rasklapanje zbog transporta.`,
             },
+            {
+              id: 66,
+              title: "šipke za farmerov hod",
+              link: "../sprave-za-vezbanje/sipke-za-farmerov-hod.html",
+              category: "sipke",
+              price: 123,
+              img: "../props/sipke/f4.jpg",
+              desc: `šipke za farmerov hod`,
+            },
+            {
+              id: 67,
+              title: "ručke za latex trake",
+              link: "../sprave-za-vezbanje/rucke-za-latex-trake.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/sprave/rucke1.jpg",
+              desc: `ručke za latex trake`,
+            },
+            {
+              id: 68,
+              title: "vratilo herkules",
+              link: "../sprave-za-vezbanje/vratilo-herkules.html",
+              category: "vratila",
+              price: 123,
+              img: "../props/zidni/h1.jpg",
+              desc: `Zidno vratilo HERKULES, veoma čvrsto, uski hvat je 55cm a široki hvat je 110cm. Ručice na stranama su blago povijene na dole, sve ručice obložene sunđerastom ručkom. Po želji boja metala i eko kože.`,
+            },
+            {
+              id: 69,
+              title: "Nastavak za T bar šipku",
+              link: "../sprave-za-vezbanje/nastavak-za-t-bar-sipku.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/sprave/t2.jpg",
+              desc: `Nastavak za T bar šipku`,
+            },
 ];
 
 const menuToggle = document.querySelector('.toggle');
@@ -701,6 +737,7 @@ const hero = document.querySelector('.hero');
       
             
 const sectionProduct = document.querySelector('.products-center');
+const dropdownMenu = document.querySelector('.dropdown-content');
 const filterBtns = document.querySelectorAll('.filter-btn');
 const container = document.querySelector(".btn-container");
                   
@@ -718,6 +755,7 @@ const container = document.querySelector(".btn-container");
 // load items
 window.addEventListener('DOMContentLoaded', function() {
   displayMenuItems(menu)
+  displayMainMenu(menu)
 });
 // filter items
 
@@ -761,6 +799,16 @@ function displayMenuItems(menuItems){
   });
   displayMenu = displayMenu.join('');
   sectionProduct.innerHTML = displayMenu
+}
+
+function displayMainMenu(menu){
+  let displayMainMenu = menu.map(function(item){
+    return `<a href=${item.link}>
+    <img src=${item.img} alt=${item.title} class="">
+    ${item.title}</a>`;
+  });
+  displayMainMenu = displayMainMenu.join('');
+  dropdownMenu.innerHTML = displayMainMenu
 }
 
 //Get the button
