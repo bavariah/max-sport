@@ -17,7 +17,7 @@ const menu = [
     category: "komplet",
     price: 123,
     img: "../props/komplet/komplet1.jpg",
-    desc: `Komplet sprava`,
+    desc: `Komplet sprava za kućnu ili komercijalnu varijantu. Moguć odabir boje metala i eko kože.`,
   },
   {
     id: 2,
