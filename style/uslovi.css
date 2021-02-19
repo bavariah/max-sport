@@ -531,7 +531,6 @@ Questions
     color: #111;
     padding: 0;
     border-radius: 0;
-    min-height: 700px;
     width: 100vw;
   }
 }
@@ -539,11 +538,14 @@ Questions
   .contact {
     margin: 40px auto 0;
     color: #111;
-    padding: 0;
+    padding-bottom: 50px;
   }
   .questions img {
     width: 300px;
     margin-bottom: 50px;
+  }
+  img.img-cover {
+    display: none;
   }
   .title-desc {
     font-size: 0.9rem;
@@ -551,6 +553,15 @@ Questions
     max-width: 90%;
     padding: 10px 5px;
     margin: auto;
+  }
+  .overlay {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(39, 68, 240, 0.8) 0%
+    );
+    mix-blend-mode: normal;
   }
   .hero header {
     padding: 15px 5px;
