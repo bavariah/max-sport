@@ -712,7 +712,7 @@ const menu = [
               link: "../sprave-za-vezbanje/vratilo-herkules.html",
               category: "vratila",
               price: 123,
-              img: "../props/zidni/h1.jpg",
+              img: "../props/zidni/h3.jpg",
               desc: `Zidno vratilo HERKULES, veoma čvrsto, uski hvat je 55cm a široki hvat je 110cm. Ručice na stranama su blago povijene na dole, sve ručice obložene sunđerastom ručkom. Po želji boja metala i eko kože.`,
             },
             {
