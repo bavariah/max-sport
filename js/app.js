@@ -685,6 +685,42 @@ const menu = [
               Stalak je izrađen od profila 60x40, veoma je jak, masivan i stabilan.
               Stalak je na rasklapanje zbog transporta.`,
             },
+            {
+              id: 66,
+              title: "šipke za farmerov hod",
+              link: "../sprave-za-vezbanje/sipke-za-farmerov-hod.html",
+              category: "sipke",
+              price: 123,
+              img: "../props/sipke/f4.jpg",
+              desc: `šipke za farmerov hod`,
+            },
+            {
+              id: 67,
+              title: "ručke za latex trake",
+              link: "../sprave-za-vezbanje/rucke-za-latex-trake.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/sprave/rucke1.jpg",
+              desc: `ručke za latex trake`,
+            },
+            {
+              id: 68,
+              title: "vratilo herkules",
+              link: "../sprave-za-vezbanje/vratilo-herkules.html",
+              category: "vratila",
+              price: 123,
+              img: "../props/zidni/h3.jpg",
+              desc: `Zidno vratilo HERKULES, veoma čvrsto, uski hvat je 55cm a široki hvat je 110cm. Ručice na stranama su blago povijene na dole, sve ručice obložene sunđerastom ručkom. Po želji boja metala i eko kože.`,
+            },
+            {
+              id: 69,
+              title: "Nastavak za T bar šipku",
+              link: "../sprave-za-vezbanje/nastavak-za-t-bar-sipku.html",
+              category: "sprave",
+              price: 123,
+              img: "../props/sprave/t2.jpg",
+              desc: `Nastavak za T bar šipku`,
+            },
 ];
 
 const dropdownMenu = document.querySelector('.dropdown-content');
